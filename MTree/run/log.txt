@@ -1,0 +1,1537 @@
+Fri Aug 12 15:33:48 CEST 2011
+Preloading tcmalloc_minimal.so
+Py:Athena            INFO including file "AthenaCommon/Preparation.py"
+Py:Athena            INFO using release [AtlasOffline-16.6.5] [16.6.X-VAL/rel_5] -- built on [2011 04/28 21:48]
+Py:Athena            INFO including file "AthenaCommon/Bootstrap.py"
+Py:Athena            INFO including file "AthenaCommon/Atlas.UnixStandardJob.py"
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<bool>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<char>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<short>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<long>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-char>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-short>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-int>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-long>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<float>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<double>=vector.dll> for level 0; ignored
+Py:Athena            INFO including file "AthenaCommon/Execution.py"
+Py:Athena            INFO including file "TopOptions.py"
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Global.DataSource has been set to data
+Py:JobPropertyContainer::    INFO RecFlags::readAOD : all algorithms are off
+Py:Athena            INFO including file "RecExCommon/RecExCommon_topOptions.py"
+Py:Athena            INFO 'gbl.AthenaServices.SetFatalHandler(flag)' is DEPRECATED
+Py:Athena            INFO instead, please consider using:
+Py:Athena            INFO  svcMgr.CoreDumpSvc.FatalHandler = flag
+Py:Athena            INFO including file "RecExCond/RecExCommon_flags.py"
+Py:RecExCommon_flags    INFO Full auto-configuration has been triggered by FilesInput()
+Py:AutoConfiguration    INFO Auto-configuration key 'everything' requested. All default keys will be used.
+Py:AutoConfiguration    INFO Auto-configuration will procede according to the following keys:
+Py:AutoConfiguration    INFO ['ProjectName', 'RealOrSim', 'FieldAndGeo', 'BeamType', 'ConditionsTag', 'DoTruth', 'InputType', 'BeamEnergy', 'LumiFlags', 'TriggerStream']
+Py:inputFilePeeker    INFO Executing   inputFilePeeker.py
+Py:AthFile           INFO opening [AOD.pool.root]...
+Py:inputFilePeeker    INFO Successfully filled inputFileSummary from file AOD.pool.root
+Py:inputFilePeeker    INFO Extracted streams ['StreamAOD'] from input file 
+Py:AutoConfiguration    INFO Success! GetProjectName() found a project named IS_SIMULATION
+Py:AutoConfiguration    INFO Auto configured BeamType: collisions 
+Py:AutoConfiguration    INFO Input file is simulation.
+Py:AutoConfiguration WARNING Failed to find triggerStream from inputFileSummary. OK for MC but can be problematic for data.
+Py:AutoConfiguration    INFO Keeping input value untouched: rec.triggerStream=''
+Py:AutoConfiguration    INFO Auto-configured ConditionsTag 'OFLCOND-SDR-BS7T-04-13' from inputFileSummary 
+Py:AutoConfiguration    INFO Configured geometry from input file: ATLAS-GEO-16-00-00 
+Py:AutoConfiguration    INFO Reading magnetic field status from input file metadata.
+Py:AutoConfiguration    INFO Trying to guess magnetic field status from geometryVersion.
+Py:AutoConfiguration    INFO Field status sucessfully auto-configured to values:
+Py:AutoConfiguration    INFO BField: barrelToroidOn = True 
+Py:AutoConfiguration    INFO BField: BField.endcapToroidOn = True 
+Py:AutoConfiguration    INFO BField: BField.solenoidOn = True 
+Py:AutoConfiguration    INFO Input has McEventCollection. Auto-configuring doTruth=True
+Py:AutoConfiguration    INFO Extracted streams ['StreamAOD'] from input file 
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<bool>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<char>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<short>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<long>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-char>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-short>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-int>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-long>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<float>=vector.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<double>=vector.dll> for level 0; ignored
+Py:AutoConfiguration    INFO Input AOD detected
+Py:JobProperty ::    INFO The JobProperty readRDO is blocked
+Py:JobProperty ::    INFO The JobProperty readESD is blocked
+Py:JobProperty ::    INFO The JobProperty readAOD is blocked
+Py:AutoConfiguration    INFO setting rec.readAOD=True 
+Py:AutoConfiguration    INFO Auto-configured beam energy : 3500000.0 MeV
+Py:AutoConfiguration    INFO Auto configured numberOfCollisions: 18.0 
+Py:AutoConfiguration    INFO Auto configured bunchSpacing: 25 
+Py:AutoConfiguration    INFO Leaving auto-configuration
+Py:Athena            INFO including file "RecExConfig/AutoConfigConsistencyCheck.py"
+Py:RecExCommon_flags    INFO starting the migration to JobProperties
+Py:RecExCommon_flags    INFO updating UserAlgs to value ['ConvertAODToMTree_jobOption.py'] 
+Py:RecExCommon_flags    INFO updating OutputLevel to value 4 
+Py:RecExCommon_flags    INFO updating EvtMax to value 1 
+Py:MuonRec           INFO Changing default straightLineFitMomentum = 2000.0
+Py:MuonRec           INFO Loading /afs/cern.ch/atlas/software/releases/16.6.5/AtlasReconstruction/16.6.5/InstallArea/python/MuonRecExample/MuonRecFlags.py
+Py:MuonRec           INFO Changing default makePRDs = False
+Py:MuonRec           INFO Changing default applyResilience = True
+Py:MuonRec           INFO Changing default doTGC_rawdataROD = False
+Py:MuonRec           INFO Changing default useTGCPriorNextBC = False
+Py:MuonRec           INFO Changing default doRpcRaw = False
+Py:RecExCommon_flags    INFO Synchronising  old flags to new flags
+Py:RecExCommon_flags    INFO inconsistency: for flag readRDO new flag: False old flag:True
+Py:RecExCommon_flags    INFO inconsistency: for flag doFloatingPointException new flag: False old flag:True
+Py:RecExCommon_flags    INFO Modified value for flag PoolRDOInput new flag: ['LFN:top_GEO-10-00-00_RDO_extract.pool'] old flag:['RDO.pool.root']
+Py:RecExCommon_flags    INFO inconsistency: for flag doCBNT new flag: False old flag:True
+Py:RecExCommon_flags    INFO inconsistency: for flag doESD new flag: False old flag:True
+Py:RecExCommon_flags    INFO inconsistency: for flag doPerfMon new flag: False old flag:True
+Py:RecExCommon_flags    INFO inconsistency: for flag doAOD new flag: False old flag:True
+Py:RecExCommon_flags    INFO inconsistency: for flag doWriteESD new flag: False old flag:True
+Py:RecExCommon_flags    INFO inconsistency: for flag readAOD new flag: True old flag:False
+Py:RecExCommon_flags    INFO inconsistency: for flag doWriteAOD new flag: False old flag:True
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec': {'UserAlgs': ['ConvertAODToMTree_jobOption.py']}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.UserAlgs has been set to ['ConvertAODToMTree_jobOption.py']
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec': {'OutputLevel': 4}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.OutputLevel has been set to 4
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.AthenaCommonFlags': {'EvtMax': 1}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.AthenaCommonFlags.EvtMax has been set to 1
+Py:RecExCommon_flags    INFO inconsistency: for flag doiPatRec new flag: False old flag:True
+Py:RecExCommon_flags    INFO inconsistency: for flag doDPD new flag: True old flag:False
+Py:RecExCommon_flags    INFO inconsistency: for flag doWriteTAG new flag: False old flag:True
+oldFlagCompatibility==True : Deleting all standalone flags!
+now deleting: UserAlgs
+now deleting: OutputLevel
+now deleting: EvtMax
+Py:RecExCommon_flags    INFO read AOD : all algs switched off 
+Py:JobProperty ::    INFO The JobProperty doWriteESD is blocked
+Py:JobProperty ::    INFO The JobProperty doWriteAOD is blocked
+Py:TriggerFlags.py    INFO TriggerMenuXML-release.txt file is found in /afs/cern.ch/atlas/software/releases/16.6.5/AtlasTrigger/16.6.5/InstallArea/share/
+Py:RecExCommon_flags    INFO done the mapping in between the old flags and JobProperties
+Py:Athena            INFO including file "RecExCond/RecExCommon_DetFlags.py"
+Py:Athena            INFO including file "RecExCond/RecExCommon_GlobalFlags.py"
+Py:RecExCommon_GlobalFlags    INFO WARNING GlobalFlags obsolete, please use import globalflags instead. Deleting now
+Py:JobProperty ::    INFO The JobProperty DetDescrVersion is blocked
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doCaloTrkMuId': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doCaloTrkMuId has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doStaco': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doStaco has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMissingET': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMissingET has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMuGirl': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMuGirl has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doAtlfast': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doAtlfast has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMuidLowPt': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMuidLowPt has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMonteCarloReact': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMonteCarloReact has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doTrackRecordFilter': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doTrackRecordFilter has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMissingETSig': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMissingETSig has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doEFlow': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doEFlow has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMuTag': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMuTag has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMuonIDStandAlone': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMuonIDStandAlone has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMuonIDCombined': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMuonIDCombined has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doEFlowJet': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doEFlowJet has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doTrigger': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doTrigger has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doTileMuID': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doTileMuID has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doMuonSpShower': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doMuonSpShower has been set to False
+Py:JobPropertyContainer::    INFO RecExCommon_flags:: migration data {'JobProperties.Rec.RecAlgs': {'doObjMissingET': False}}
+Py:JobPropertyContainer::    INFO The JobProperty JobProperties.Rec.RecAlgs.doObjMissingET has been set to False
+Py:JobProperties.MuonRec.Enabled    INFO makePRDs.set_Off()
+Py:JobProperties.MuonRec.Enabled    INFO doMuonboy.set_Off()
+Py:JobProperties.MuonRec.Enabled    INFO doMoore.set_Off()
+Py:JobProperties.MuonRec.Enabled    INFO doDigitization.set_Off()
+Py:MuonRec           INFO Changing default calibMoore = False
+Py:MuonRec           INFO Changing default calibMuonboy = False
+Py:MuonRec           INFO Changing default calibNtupleTracks = False
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMergeMuons.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doTrackNtuple.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO Commissioning.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMuGirlLowBeta.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doStacoMoore.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMuidCombined.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doLArMuId.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMboyCombined.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO TrackPerfSummaryLevel.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doCaloTrkMuId.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMuidVertexAssociator.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doStaco.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMuTagMoore.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doTrackPerformance.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doAODMuons.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMuidStandalone.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO TrackPerfDebugLevel.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doCombinedMuonFit.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doExtrapolateMuonToIP.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMuTag.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doCosmicSplitTracks.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMuTagIMO.set_Off()
+Py:JobProperties.MuonCombinedRec.Enabled    INFO doMuGirl.set_Off()
+Py:JobProperty ::    INFO AODFlags:: now uses JobProperty mechanisms
+oldFlagCompatibility==True : Deleting all standalone flags! and forbidding use of old flags
+Py:RecExCommon_topOptions    INFO Abort on unchecked status code enabled !
+Py:AODFix            INFO File was produced with Athena version <AtlasProduction-16.6.4.2>.
+Py:AODFix            INFO Summary of MetaData for AODFix:
+Py:AODFix            INFO  Inputfile produced with Athena version <AtlasProduction-16.6.4.2>.
+Py:AODFix            INFO  AODFix version <AODFix_v1_RAW> was previously applied.
+Py:ConfigurableDb    INFO Read module info for 5373 configurables from 10 genConfDb files
+Py:ConfigurableDb    INFO No duplicates have been found: that's good !
+EventInfoMgtInit: Got release version  AtlasOffline-16.6.5
+Py:IOVDbSvc.CondDB    INFO Setting up conditions DB access to instance OFLP200
+Py:Athena            INFO including file "RecExCond/AllDet_detDescr.py"
+Py:Athena            INFO including file "IdDictDetDescrCnv/IdDictDetDescrCnv_joboptions.py"
+Py:Athena            INFO including file "TileConditions/TileConditions_jobOptions.py"
+Py:TileInfoConf.     INFO Adding TileCablingSvc to ServiceMgr
+Py:TileInfoConf.     INFO Adding default TileBadChanTool to ToolSvc
+Py:TileInfoConf.     INFO Adding default TileCondToolOfc to ToolSvc
+Py:TileInfoConf.     INFO Adding default TileCondToolEmscale to ToolSvc
+Py:TileInfoConf.     INFO Adding default TileCondToolNoiseSample to ToolSvc
+Py:TileInfoConf.     INFO Adding default TileCondToolTiming to ToolSvc
+Py:TileInfoConf.     INFO Adding default TileCondToolPulseShape to ToolSvc
+Py:TileConditions_jobOptions.py    INFO Adjusting TileInfo for 7 samples
+Py:TileConditions_jobOptions.py    INFO setting up COOL for TileCal conditions data
+Py:TileInfoConf.     INFO Changing default TileBadChanTool configuration to COOL source
+Py:TileInfoConf.     INFO Changing default TileCondToolEmscale configuration to COOL source
+Py:IOVDbSvc.CondDB    INFO Ignoring additional request for folder /TILE/OFL02/CALIB/CIS/FIT/LIN
+Py:IOVDbSvc.CondDB    INFO Ignoring additional request for folder /TILE/OFL02/CALIB/LAS/LIN
+Py:IOVDbSvc.CondDB    INFO Ignoring additional request for folder /TILE/OFL02/CALIB/CES
+Py:IOVDbSvc.CondDB    INFO Ignoring additional request for folder /TILE/OFL02/CALIB/EMS
+Py:TileInfoConf.     INFO Changing default TileCondToolNoiseSample configuration to COOL source
+Py:TileInfoConf.     INFO Changing default TileCondToolTiming configuration to COOL source
+Py:TileInfoConf.     INFO Changing default TileCondToolPulseShape configuration to COOL source
+Py:TileInfoConf.     INFO Changing default TileCondToolOfcCool configuration to COOL source
+Py:TileConditions_jobOptions.py    INFO Adjusting TileInfo to return cell noise for Opt.Filter without iterations
+Py:Athena            INFO including file "CaloIdCnv/CaloIdCnv_joboptions.py"
+Py:Athena            INFO including file "CaloConditions/CaloConditions_jobOptions.py"
+Py:Athena            INFO including file "CaloConditions/LArTTCellMap_ATLAS_jobOptions.py"
+Py:Athena            INFO including file "CaloConditions/CaloTTIdMap_ATLAS_jobOptions.py"
+Py:Athena            INFO including file "TileIdCnv/TileIdCnv_jobOptions.py"
+Py:Athena            INFO including file "LArDetDescr/LArDetDescr_joboptions.py"
+now initializing the LAr readout geometry : standard Atlas flavour
+Py:Athena            INFO including file "LArIdCnv/LArIdCnv_joboptions.py"
+Py:Athena            INFO including file "LArTools/LArTools_jobOptions.py"
+Py:Athena            INFO including file "LArConditionsCommon/LArConditionsCommon_MC_jobOptions.py"
+ATLAS-GEO-16-00-00
+Py:JobPropertyContainer::    INFO  ATLAS-GEO version 16 
+Py:JobPropertyContainer::    INFO  use global tag for all LArElecCalibMC constants 
+Py:Athena            INFO including file "LArCondAthenaPool/LArCondAthenaPool_joboptions.py"
+Py:Athena            INFO including file "LArConditionsCommon/LArIdMap_MC_jobOptions.py"
+Py:Athena            INFO including file "AthenaPoolCnvSvc/AthenaPool_jobOptions.py"
+Py:Athena            INFO including file "LArCondAthenaPool/LArCondAthenaPool_joboptions.py"
+Py:JobPropertyContainer::    INFO  setting folder /LAR/Identifier/OnOffIdAtlas with tag OnOffIdAtlas-012
+Py:JobPropertyContainer::    INFO  setting folder /LAR/Identifier/FebRodAtlas with tag FebRodAtlas-005
+Py:Athena            INFO including file "InDetBeamSpotService/BeamCondSvc.py"
+Py:Athena            INFO including file "AmdcAth/AmdcAth_jobOptions.py"
+Py:Athena            INFO including file "BFieldAth/BFieldAth_jobOptions.py"
+Py:Athena            INFO including file "PartPropSvc/PartPropSvc.py"
+Py:Athena            INFO including file "DetectorStatus/DetStatusSvc_CondDB.py"
+Py:Athena            INFO including file "DetectorStatus/DetStatusSvc_ToFileMetaData.py"
+Old flags have been deleted
+Py:RecExCommon_topOptions    INFO Pool file : storing in objKeyStore the list of input object directly from file
+Py:Configured::existingOutput:TriggerGetter:    INFO No output objects already available. Continue.
+Py:TriggerGetter.py    INFO Basic configuration flags RecAlgsFlag.doTrigger: 0   RecFlags.doTrigger: 1 TriggerFlags.doTriggerConfigOnly 0
+Py:TriggerConfigGetter.py    INFO Initialize (interpreting rec and trigger flags)
+Py:Configured::existingOutput:TriggerConfigGetter:    INFO No output objects already available. Continue.
+Py:TriggerConfigGetter.py    INFO Using LB-wise HLT prescales
+Py:Athena            INFO including file "TrigTier0/TriggerConfigCheckMetadata.py"
+DataQualityMon_RecExCommon_Flags_jobOptions.py: DQMonFlags not yet imported - I import them now
+Py:TriggerConfigGetter.py    INFO The following flags are set:
+Py:TriggerConfigGetter.py    INFO globalflags.InputFormat             : pool
+Py:TriggerConfigGetter.py    INFO rec.read.*                          : RDO: False, ESD: False, AOD: True, TAG: False
+Py:TriggerConfigGetter.py    INFO rec.doWrite.*                       : ESD: False, AOD: False, TAG: False
+Py:TriggerConfigGetter.py    INFO globalflags.DataSource              : geant4
+Py:TriggerConfigGetter.py    INFO TriggerFlags.configForStartup       : HLTonlineNoL1Thr
+Py:TriggerConfigGetter.py    INFO TriggerFlags.dataTakingConditions   : FullTrigger
+Py:TriggerConfigGetter.py    INFO TriggerFlags.configurationSourceList: []
+Py:TriggerConfigGetter.py    INFO Need to create temporary cool file? : False
+Py:TriggerConfigGetter.py    INFO Creating the Trigger Configuration Services
+Py:TriggerConfigGetter.py    INFO The following configuration services will be tried: ['ds']
+Py:TrigConfigSvcConfig.py    INFO initialising TrigConfigSvc using state ['ds']
+Py:TrigConfigSvcConfig.py    INFO setup DSConfigSvc and add instance to ServiceMgr
+Py:TrigConfigSvcConfig.py    INFO setup TrigConfigSvc and add instance to ServiceMgr
+Py:TriggerConfigGetter.py    INFO TriggerFlags.triggerCoolDbConnection is '' [default: '']
+Py:TriggerConfigGetter.py    INFO DSConfigSvc enabled, will setup IOVDbSvc to access configuration meta data
+Py:TriggerConfigGetter.py    INFO COOL DBConnection: not set, will use default conditions database
+Py:TriggerConfigGetter.py    INFO Adding folders to IOVDbSvc
+Py:TriggerConfigGetter.py    INFO      /TRIGGER/HLT/Menu
+Py:TriggerConfigGetter.py    INFO      /TRIGGER/HLT/HltConfigKeys
+Py:TriggerConfigGetter.py    INFO      /TRIGGER/LVL1/Lvl1ConfigKey
+Py:TriggerConfigGetter.py    INFO      /TRIGGER/LVL1/Menu
+Py:TriggerConfigGetter.py    INFO      /TRIGGER/LVL1/Prescales
+Py:TriggerConfigGetter.py    INFO      /TRIGGER/HLT/Prescales
+Py:TriggerConfigGetter.py    INFO      /TRIGGER/HLT/PrescaleKey
+Py:TriggerConfigGetter.py    INFO      /TRIGGER/LVL1/ItemDef
+Py:Configured::__init__:TriggerConfigGetter:    INFO Configured/Enabled
+Py:TrigConf2COOLLib.py    INFO Writing of trigger configuration to SQlite COOL is not needed
+Py:Configured::existingOutput:Lvl1ResultBuilderGetter:    INFO No output objects already available. Continue.
+Py:Configured::__init__:Lvl1ResultBuilderGetter:    INFO Configured/Enabled
+Py:Configured::existingOutput:HLTTriggerResultGetter:    INFO No output objects already available. Continue.
+Py:HLTTriggerResultGetter.py    INFO BS unpacking: 0
+Py:HLTTriggerResultGetter.py    INFO ESD content set according to the ESDEDMSet flag: ESD
+Py:HLTTriggerResultGetter.py    INFO AOD content set according to the AODEDMSet flag: AODFULL
+Py:HLTTriggerResultGetter.py    INFO AOD list is subset of ESD list - good.
+Py:Configured::__init__:HLTTriggerResultGetter:    INFO Configured/Enabled
+Py:Configured::__init__:TriggerGetter:    INFO Configured/Enabled
+Py:Athena            INFO including file "RecExCommon/SystemRec_config.py"
+Py:Athena            INFO including file "CaloRec/CaloRec_jobOptions.py"
+Py:Athena            INFO including file "InDetRecExample/InDetRec_jobOptions.py"
+Initializing InDetJobProperties with DetFlags, GlobalFlags and other high level flags.
+InDetJobProperties::setupDefaults():  jobproperties.Beam.beamType() is collisions
+Initialization of InDetFlags finished - locking container!
+Py:JobPropertyContainer::    INFO The JobProperty Container InDetJobProperties is locked
+****** Inner Detector Flags ********************************************************
+*
+* --------------------> Disabling Reconstruction !
+*
+*
+* PreProcessing:
+* ==============
+*
+*
+* TrackFinding:
+* =============
+*
+* Cut level for Tracking is set to :  2
+*    (1) - 2010 settings
+*    (2) - start of 2011 settings
+*    (3) - tighter version of (2)
+*
+* PostProcessing:
+* ===============
+*
+*
+* Other parameters
+* =================
+*
+* run truth association: TruthMatchRatio
+* solenoid field is ON
+* use Pixel DCS
+* use SCT DCS
+* use TRT DCS
+*
+* Configurable Services loaded:
+* =============================
+*
+* load tracking geometry for Inner Detector
+* use Beam Spot Constraint in reconstruction/vertexing
+*
+* Configurable Tools loaded:
+* ==========================
+*
+* load ROT_Creator for Inner Detector
+* load TrackingGeometry
+* load Extrapolator:
+* - load Runge Kutta propagator
+* - load MagFieldTool
+* - use material corrections of type 3 in extrapolation and fit
+* load MeasurementUpdator
+* load track fitter of type  GlobalChi2Fitter
+* - refit from ROT
+* load PRD_AssociationToolGangedPixels
+* load TrackSummaryTool
+* - and do holes on track search
+*
+************************************************************************************
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.AODall = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.Enabled = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.KeepParameters = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.cutLevel = 2 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.cutSCTOccupancy = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.disableInDetReco = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.disableTracking = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doBackTracking = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doBeamGas = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doBeamHalo = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doCTBTrackSegmentsPixel = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doCTBTrackSegmentsSCT = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doCTBTrackSegmentsTRT = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doCTBTracking = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doConvVtxD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doConvVtxNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doConversions = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doCosmics = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doFatras = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doHeavyIon = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doHolesOnTrack = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doLowBetaFinder = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doLowPt = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doMinBias = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doMinimalReco = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doMonitoringAlignment = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doMonitoringGlobal = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doMonitoringPixel = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doMonitoringPrimaryVertexingEnhanced = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doMonitoringSCT = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doMonitoringTRT = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doNewTracking = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doPRDFormation = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doParticleCreation = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doPerfMon = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doPixelClusterNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doPixelTrkD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doPixelTrkNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doPrimaryVertex3DFinding = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doPrintConfigurables = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doRefit = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doResolveBackTracks = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doRobustReco = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSGDeletion = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSLHC = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSctClusterNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSctTrkD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSctTrkNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSecVertexFinder = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSharedHits = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSiSPSeededTrackFinder = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSimpleV0Finder = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSingleCollisionVertexReco = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSingleSpBackTracking = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSlimming = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doSpacePointFormation = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doStandardPlots = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doStatistics = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTRTPhaseCalculation = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTRTSeededTrackFinder = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTRTStandalone = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrackSegmentsPixel = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrackSegmentsSCT = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrackSegmentsTRT = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTriggerD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrkD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrkNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrtDriftCircleNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrtSegments = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrtTrkD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTrtTrkNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doTruth = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doV0Finder = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doV0VtxD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doV0VtxNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doVertexFinding = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doVeryLowPt = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doVtxD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doVtxMonitoringD3PD = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doVtxNtuple = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doiPatRec = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.doxKalman = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.kalmanUpdator = 'None' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.loadSimpleTRTSeededSPFinder = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.loadTRTSeededSPFinder = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.loadTools = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.magField = 'None' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.materialInteractions = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.materialInteractionsType = 3 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.noTRTTiming = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.postProcessing = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.preProcessing = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.primaryVertexCutSetup = 'StartUp' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.primaryVertexSetup = 'IterativeFinding' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.primaryVertexSortingSetup = 'SumPt2Sorting' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.propagatorType = 'RungeKutta' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.redoTRT_LR = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.refitROT = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.removeTRTNoise = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.secondaryVertexCutSetup = 'StartUp' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.selectSCTIntimeHits = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.trackFitterType = 'GlobalChi2Fitter' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.trtExtensionType = 'xk' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.truthMatchStrategy = 'TruthMatchRatio' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.useBeamConstraint = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.useBroadClusterErrors = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.useDCS = True 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.useHVForSctDCS = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.useMBTSTimeDiff = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.useNewGlobalChi2Tuning = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.useV0Fitter = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.useZvertexTool = False 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.vertexSeedFinder = 'SlidingWindowMultiSeedFinder' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetJobProperties.writeRDOs = False 
+InDetKeys: Locking all keys except aliases
+Printing InDetKeys
+Py:JobProperty ::    INFO  --> JobProperties.InDetContainerKeys.AliasToTracks = 'none' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.BCM_CompactDOs = 'BCM_CompactDOs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.BCM_RDOs = 'BCM_RDOs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.BackTracks_CTB = 'BackTracks_CTB' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.CombinedCosmicTracks = 'CombinedCosmicTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.Conversions = 'ConversionCandidate' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.CosmicTracks_CTB = 'InDetCosmic_Tracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.DetailedTracksTruth = 'DetailedTrackTruth' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedBeamGasTracks = 'ExtendedBeamGasTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedDetailedTracksTruth = 'ExtendedTracksDetailedTruth' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedHaloTracks = 'ExtendedHaloTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedLowPtTracks = 'ExtendedLowPtTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedSLHCTracks = 'ExtendedSLHCTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedTracks = 'ExtendedTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedTracksMap = 'ExtendedTracksMap' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedTracksMapBeamGas = 'ExtendedTracksMapBeamGas' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedTracksMapLowPt = 'ExtendedTracksMapLowPt' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedTracksMapSLHC = 'ExtendedTracksMapSLHC' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ExtendedTracksTruth = 'ExtendedTracksTruthCollection' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.GangedPixelMap = 'PixelClusterAmbiguitiesMap' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.HaloTracks = 'ResolvedHaloTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.IPatConvertedTracks = 'ConvertedIPatTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.IPatConvertedTracksDetailedTruth = 'ConvertedIPatTracksDetailedTruth' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.IPatConvertedTracksTruth = 'ConvertedIPatTracksTruth' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.IPatParticles = 'IPatTrackParticleCandidate' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.IPatParticlesTruth = 'IPatTrackParticleTruthCollection' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.IPatPrimaryVertices = 'IPatVxPrimaryCandidate' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.LowBetaCandidates = 'InDetLowBetaCandidates' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.McEventCollection = 'TruthEvent' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.OutputAODFileName = 'InDetRecAOD.root' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.OutputESDFileName = 'InDetRecESD.root' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.OutputRDOFileName = 'InDetRecRDO.root' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.OverlapSpacePoints = 'OverlapSpacePoints' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelByteStreamErrs = 'PixelByteStreamErrs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelClusters = 'PixelClusters' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelClustersTruth = 'PRD_MultiTruthPixel' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelManager = 'Pixel' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelRDOs = 'PixelRDOs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelSDOs = 'PixelSDO_Map' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelSpacePoints = 'PixelSpacePoints' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelTracks = 'ResolvedPixelTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PixelTracks_CTB = 'ResolvedPixelTracks_CTB' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.PrimaryVertices = 'VxPrimaryCandidate' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.RefittedDetailedTracksTruth = 'RefittedTracksDetailedTruth' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.RefittedTracks = 'RefittedTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.RefittedTracksTruth = 'RefittedTracksTruthCollection' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ResolvedBackTracks_CTB = 'ResolvedBackTracks_CTB' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ResolvedBeamGasTracks = 'ResolvedBeamGasTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ResolvedLowPtTracks = 'ResolvedLowPtTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ResolvedSLHCTracks = 'ResolvedSLHCTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ResolvedSiCosmicTracks = 'ResolvedSiCosmicTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ResolvedTRTSeededTracks = 'ResolvedTRTSeededTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ResolvedTracks = 'ResolvedTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.ResolvedVeryLowPtTracks = 'ResolvedVeryLowPtTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCTTracks = 'ResolvedSCTTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCTTracks_CTB = 'ResolvedSCTTracks_CTB' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCT_ByteStreamErrs = 'SCT_ByteStreamErrs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCT_Clusters = 'SCT_Clusters' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCT_ClustersTruth = 'PRD_MultiTruthSCT' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCT_Manager = 'SCT' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCT_RDOs = 'SCT_RDOs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCT_SDOs = 'SCT_SDO_Map' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SCT_SpacePoints = 'SCT_SpacePoints' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SecVertices = 'SecVertices' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiExtendedCalibrationTracks_CTB = 'SiExtended_Calibration_Tracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiSpSeededBeamGasTracks = 'SiSPSeededBeamGasTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiSpSeededLowPtTracks = 'SiSPSeededLowPtTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiSpSeededPixelTracks = 'SiSPSeededPixelTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiSpSeededSCTTracks = 'SiSPSeededSCTTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiSpSeededSLHCTracks = 'SiSPSeededSLHCTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiSpSeededTracks = 'SiSPSeededTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiSpSeededVeryLowPtTracks = 'SiSPSeededVeryLowPtTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SiTracks_CTB = 'Si_Cosmic_Tracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SimpleV0Candidates = 'SimpleV0Candidates' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.SingleSpTRTSeededTracks = 'TRTSeededSingleSPTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.StandardPlotHistName = 'InDetStandardPlots.root' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRTCalibrationTracks_CTB = 'TRT_Calibration_Tracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRTSeededTracks = 'TRTSeededTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRTTracks = 'StandaloneTRTTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRTTracks_CTB = 'StandaloneTRTTracks_CTB' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRTTracks_NewT = 'TRTStandaloneTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_ByteStreamErrs = 'TRT_ByteStreamErrs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_ByteStreamIdErrs = 'TRT_ByteStreamIdErrs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_DriftCircles = 'TRT_DriftCircles' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_DriftCirclesTruth = 'PRD_MultiTruthTRT' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_DriftCirclesUncalibrated = 'TRT_DriftCirclesUncalibrated' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_Manager = 'TRT' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_RDOs = 'TRT_RDOs' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_SDOs = 'TRT_SDO_Map' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_Segments = 'TRTSegments' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_SegmentsECPhase_CTB = 'TRTSegmentsECphase_CTB' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_SegmentsEC_CTB = 'TRTSegmentsEC_CTB' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_SegmentsTRT = 'TRTSegmentsTRT' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_SegmentsTRT_EC = 'TRTSegmentsTRT_EC' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TRT_Segments_EC = 'TRTSegments_EC' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TrackParticles = 'TrackParticleCandidate' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TrackParticlesTruth = 'TrackParticleTruthCollection' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.Tracks = 'Tracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.TracksTruth = 'TrackTruthCollection' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.UnslimmedDetailedTracksTruth = 'CombinedInDetTracksDetailedTruth' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.UnslimmedTracks = 'CombinedInDetTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.UnslimmedTracksTruth = 'CombinedInDetTracksTruthCollection' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.UnslimmedTracksTruth_CTB = 'CombinedInDetTracks_CTBTruthCollection' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.UnslimmedTracks_CTB = 'CombinedInDetTracks_CTB' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.V0Candidates = 'V0Candidates' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.XKalConvertedTracks = 'ConvertedXKalmanTracks' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.XKalConvertedTracksDetailedTruth = 'ConvertedXKalmanTracksDetailedTruth' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.XKalConvertedTracksTruth = 'ConvertedXKalmanTracksTruth' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.XKalParticles = 'XKalTrackParticleCandidate' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.XKalParticlesTruth = 'XKalTrackParticleTruthCollection' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.XKalPrimaryVertices = 'XKalVxPrimaryCandidate' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.trkD3PDFileName = 'InDetTrackD3PD.root' 
+Py:JobProperty ::    INFO  x-> JobProperties.InDetContainerKeys.trkValidationNtupleName = 'TrkValidation.root' 
+InDetRec_jobOptions: InDetNewTrackingCuts not set before - import them now
+****** Inner Detector Track Reconstruction Cuts ************************************
+*
+* SETUP is  :  Offline
+* extension :  
+*
+* InDetFlags.cutLevel() =  2
+*
+* Pixel used                  :   False
+* SCT used                    :   False
+* TRT used                    :   False
+*
+* min pT                      :  400.0  MeV
+* max Z IP                    :  250.0  mm
+* max eta                     :  2.7
+*
+* NewTracking cuts:
+* -----------------
+* max Rphi IP (primaries)     :   10.0  mm
+* min number of clusters      :   7
+* min number of pixel hits    :   0
+* min number of NOT shared    :   6
+* max number of shared        :   1
+* max number of Si holes      :   3
+* max number of Pixel holes   :   2
+* max number of SCT holes     :   2
+* max number of double holes  :   1
+*
+* seed filter level           :   1
+* maximal R of SP for seeding :   600.0
+* max holes in pattern        :   3
+* max holes gap in pattern    :   3
+* Xi2 max                     :   15.0
+* Xi2 max no add              :   35.0
+*
+* nWeightedClustersMin        :   6
+*
+************************************************************************************
+InDetRec_jobOptions: InDetPrimaryVertexingCuts not set before - import them now
+****** Inner Detector Primary Vertex Reconstruction Cuts ****************************
+*
+* min pT					       :  150.0  MeV
+* Max IP d0					       :  4.0
+* Max IP Z0					       :  1000.0
+* Max z0					       :  1000.0
+* Max Sig IP d0				       :  5.0
+* Max Sig IP z0				       :  10.0
+* Max Sig d0 				       :  -1.0
+* Max Sig z0 				       :  -1.0
+* Max eta					       :  9999.0
+* Use TrackSummary				       :  True
+* Min N B Layer Hits 			       :  0
+* Min N Pix Hit				       :  1
+* Min N B Layer + Pix			       :  0
+* Min N SCT Hits				       :  4
+* Min N Si Hits				       :  6
+* Min N TRT Hits				       :  0
+* Min N high threshold hits TRT		       :  1
+* Min N high threshold hits TRT  (incl. outliers)   :  1
+* Use shared hit info			       :  False
+* Use Track Quality info			       :  False
+* Chi2/ndf of the fit			       :  3.5
+* TRT Max  eta				       :  1.9
+* General Configuration: StartUp
+************************************************************************************
+Py:Athena            INFO including file "InDetRecExample/InDetRecConditionsAccess.py"
+Py:Athena            INFO including file "InDetRecExample/InDetRecLoadTools.py"
+Py:Athena            INFO including file "InDetRecExample/InDetRecCabling.py"
+Py:Athena            INFO including file "TrkDetDescrSvc/AtlasTrackingGeometrySvc.py"
+Py:CaloDepthToolshowerdefault(Base)::__init__ depth=showerdefault    INFO called with depth=showerdefault
+Py:CaloDepthToolshowerdefault(Base)::__init__ depth=showerdefault    INFO picked showerdefault=cscopt2 for detdescrversion=ATLAS-GEO-16-00-00
+Py:CaloDepthToolshowerdefault(Base)::__init__ depth=showerdefault    INFO Setting up CaloDepthTool/CaloDepthToolshowerdefault with depth cscopt2
+Py:CaloNoiseToolDefault    INFO  Using CaloNoiseToolDB
+Py:CaloNoiseToolDBMC::__init__     INFO entering
+Py:CaloNoiseToolDBMC::__init__     INFO   Luminosity (in 10**33) units used for pileup noise : 7.826087
+Py:Athena            INFO including file "InDetRecExample/InDetRecPreProcessingSilicon.py"
+Py:Athena            INFO including file "InDetRecExample/ConfiguredInDetPreProcessingTRT.py"
+Py:Athena            INFO including file "InDetRecExample/InDetRecPostProcessing.py"
+Py:Athena            INFO including file "MuonRecExample/MuonRec_jobOptions.py"
+Py:Athena            INFO including file "MuonRecExample/MuonRecLoadTools.py"
+DefaultMuonClusterOnTrackCreator.py: Defining theMuonClusterOnTrackCreator
+CalibCscStripFitter: Defining CalibCscStripFitter
+Py:Athena            INFO including file "CscCalibTools/CscCalibTool_jobOptions.py"
+QratCscClusterFitter: Defining QratCscClusterFitter
+CscClusterUtilTool: Defining CscClusterUtilTool
+CscClusterUtilTool: Defining CscClusterUtilTool
+Py:RegSelSvc::__init__     INFO entering
+<<<<<< Start of Reco Config: MuonRec (class MuonRecExample.MuonRec.MuonRec) >>>>>>
+## Storegate Data Keys: ##
+CscSegments=['Csc4dSegmentCombinations']
+MuonPatterns=['MuonHoughPatternCombinations']
+MuonSegmentCombinations=['MooreSegmentCombinations']
+MuonSegmentCombinationsForCalibration=['MdtSegmentCombinations']
+MuonSegments=['ConvertedMBoySegments', 'MooreSegments']
+MuonTrackParticles=['MooreTrackParticles']
+MuonTracks=['ConvertedMBoyTracks', 'MooreTracks']
+MuonTracksForCalibration=['ConvertedMBoyTracks']
+PhiPatterns=['MuonCleanPhiPatterns']
+<<<<<<   End of Reco Config: MuonRec (class MuonRecExample.MuonRec.MuonRec) >>>>>>
+Py:Athena            INFO including file "ForwardRec/ForwardRec_jobOptions.py"
+Py:Athena            INFO including file "RecExCommon/CombinedRec_config.py"
+Py:Athena            INFO including file "egammaRec/egammaRec_jobOptions.py"
+Py:Configured::__init__:egammaGetter:    INFO  : Disabling
+Py:Configured::__init__:softeGetter:    INFO  : Disabling
+Py:Configured::__init__:egammaForwardGetter:    INFO  : Disabling
+Py:Athena            INFO including file "MuonCombinedRecExample/MuonCombinedRec_config.py"
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doMuGirl.set_Off()
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doMuidStandalone.set_Off()
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doMuidCombined.set_Off()
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doMuidVertexAssociator.set_Off()
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doExtrapolateMuonToIP.set_Off()
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doCombinedMuonFit.set_Off()
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doMuTagIMO.set_Off()
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doMuTagMoore.set_Off()
+Py:JobProperties.MuonCombinedRec.doMuidMuonCollection    INFO doStacoMoore.set_Off()
+Py:Athena            INFO including file "JetRec/JetRec_jobOptions.py"
+     |- Enabled = False (Default: True)
+Py:JetGetters        INFO  Building jetgetter for AntiKt6TowerJetsGetter  disabling=True
+Py:Configured::__init__:AntiKt6TowerJetsGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt4TowerJetsGetter  disabling=True
+Py:Configured::__init__:AntiKt4TowerJetsGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt6TopoGetter  disabling=True
+Py:Configured::__init__:AntiKt6TopoGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt4TopoGetter  disabling=True
+Py:Configured::__init__:AntiKt4TopoGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt6LCTopoGetter  disabling=True
+Py:Configured::__init__:AntiKt6LCTopoGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt4LCTopoGetter  disabling=True
+Py:Configured::__init__:AntiKt4LCTopoGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt6TopoEMJetsGetter  disabling=True
+Py:Configured::__init__:AntiKt6TopoEMJetsGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt4TopoEMJetsGetter  disabling=True
+Py:Configured::__init__:AntiKt4TopoEMJetsGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt4TruthGetter  disabling=True
+Py:Configured::__init__:AntiKt4TruthGetter:    INFO  : Disabling
+Py:JetGetters        INFO  Building jetgetter for AntiKt6TruthGetter  disabling=True
+Py:Configured::__init__:AntiKt6TruthGetter:    INFO  : Disabling
+in make_standardjetgetter
+Py:Athena            INFO including file "tauRec/tauRec_config.py"
+Py:Athena            INFO including file "ConvertAODToMTree_jobOption.py"
+Py:Athena            INFO including file "ParticleBuilderOptions/ESD_PoolCnv_jobOptions.py"
+Py:Athena            INFO including file "G4SimAthenaPOOL/G4SimAthenaPOOL_joboptions.py"
+Py:Athena            INFO including file "GeneratorObjectsAthenaPool/GeneratorObjectsAthenaPool_joboptions.py"
+Py:Athena            INFO including file "InDetEventAthenaPool/InDetEventAthenaPool_joboptions.py"
+Py:Athena            INFO including file "LArAthenaPool/LArAthenaPool_joboptions.py"
+Py:Athena            INFO including file "TileEventAthenaPool/TileEventAthenaPool_joboptions.py"
+Py:Athena            INFO including file "MuonEventCnvTools/MuonEventCnvTools_jobOptions.py"
+Py:Athena            INFO including file "TrigT1EventAthenaPool/TrigT1EventAthenaPool_joboptions.py"
+Py:Athena            INFO including file "TrigEventAthenaPool/TrigEventAthenaPool_joboptions.py"
+Py:Athena            INFO including file "ParticleBuilderOptions/AOD_PoolCnv_jobOptions.py"
+Py:Athena            INFO including file "ParticleEventAthenaPool/ParticleEventAthenaPool_joboptions.py"
+Py:Athena            INFO including file "AnalysisTriggerEventAthenaPool/AnalysisTriggerEventAthenaPool_joboptions.py"
+Py:Athena            INFO including file "ParticleBuilderOptions/McAOD_PoolCnv_jobOptions.py"
+Py:Athena            INFO including file "TrackParticleTruthAthenaPool/TrackParticleTruthAthenaPool_joboptions.py"
+Py:Athena            INFO including file "GeneratorObjectsAthenaPool/GeneratorObjectsAthenaPool_joboptions.py"
+Py:Athena            INFO including file "McParticleEventAthenaPool/McParticleEventAthenaPool_joboptions.py"
+Py:Athena            INFO including file "EventAthenaPool/EventAthenaPool_joboptions.py"
+Py:MCTruthCalssifierBase.py::configure:    INFO entering
+PublicToolHandleArray    WARNING PublicToolHandle('Trk::MaterialEffectsUpdator/NoElossMaterialEffectsUpdator') with instance name 'NoElossMaterialEffectsUpdator' already in list. Not adding PublicToolHandle('Trk::MaterialEffectsUpdator/NoElossMaterialEffectsUpdator')
+PublicToolHandleArray    WARNING PublicToolHandle('Trk::MaterialEffectsUpdator/NoElossMaterialEffectsUpdator') with instance name 'NoElossMaterialEffectsUpdator' already in list. Not adding PublicToolHandle('Trk::MaterialEffectsUpdator/NoElossMaterialEffectsUpdator')
+Py:Athena            INFO including file "TrackIsolationTools/TrackIsolationTool_jobOptions.py"
+Py:Athena            INFO including file "TrackInCaloTools/TrackInCaloTools_jobOptions.py"
+/***** Public AlgTool TrackInCaloTools/TrackInCaloTools ********************************************
+|-AuditFinalize        = False
+|-AuditInitialize      = False
+|-AuditStart           = False
+|-AuditStop            = False
+|-AuditTools           = False
+|-CaloCellContainer    = 'AODCellContainer'  (default: 'AllCalo')
+|-Cosmics              = False  (default: False)
+|-DetStore             = ServiceHandle('StoreGateSvc/DetectorStore')
+|-EcoreCalibWithPath   = False
+|-EcoreDefinition      = ['0.025x0.06', '0.03x0.07', '0.05', '0.03', '0.08x0.06', '2x1', '0.15x0.06', '0.07', '0.07', '0.07', '0.07']
+|                      (default: ['0.05'])
+|-EvtStore             = ServiceHandle('StoreGateSvc')
+|-MonitorService       = 'MonitorSvc'
+|-NoiseTool            = PublicToolHandle('CaloNoiseToolDB/CaloNoiseToolDefault')
+|                      (default: 'CaloNoiseTool/CaloNoiseToolDefault')
+|-OutputLevel          = 7
+|-cellNoiseRMSCut      = 3.3999999999999999
+|-cellNoiseRMSCutLoose = 2.0
+|-useExtrapolation     = True
+|-useNegativeCells     = True  (default: False)
+\----- (End of Public AlgTool TrackInCaloTools/TrackInCaloTools) -----------------------------------
+WARNING
+This package 'TrigDecision' is deprecated and will disappear soon, please import the new TDT directly:
+from TrigDecisionTool.TrigDecisionToolConf import Trig__TrigDecisionTool as TrigDecisionTool
+Py:TriggerConfigGetter.py    INFO Initialize (interpreting rec and trigger flags)
+Py:Athena            INFO including file "BTagging/BTagging_jobOptions.py"
+Py:Athena            INFO including file "BTagging/BTagging_LoadTools.py"
+#BTAG# B-tagging descoping:  level =  1
+#BTAG# ---------------------------------------------------------------------------------------------
+#BTAG# BTagging configuration:
+#BTAG# -> Output level: 3
+#BTAG# -> Running in mode: analysis
+#BTAG# -> Automatic inspection of input file: True
+#BTAG# -> JetFinder based on: Cells
+#BTAG# -> List of jet types considered: ['AntiKt4TopoEM']
+#BTAG# -> List of jet types with InfoPlus: ['AntiKt4TopoEM']
+#BTAG# -> List of jet collections to ntuple: AntiKt4Topo
+#BTAG# -> TruthMatching algorithm: matchQuark
+#BTAG# -> Primary vertex collection: VxPrimaryCandidate
+#BTAG# -> TrackParticle collection: TrackParticleCandidate
+#BTAG# -> TrackParticleTruth collection: TrackParticleTruthCandidate
+#BTAG# -> Muon collection: StacoMuonCollection
+#BTAG# -> second Muon collection: MuidMuonCollection
+#BTAG# -> Electron collection: ElectronAODCollection
+#BTAG# -> Photon collection: PhotonAODCollection
+#BTAG# -> Calibration folder root: /GLOBAL/BTagCalib/
+#BTAG# -> Calibration schema: single actual DB folder + one shadow folder per tagger
+#BTAG# -> Calibration from COOL database  (using standard replication mechanism)
+#BTAG# -> Calibration tag: automatic
+#BTAG# -> JetFitter calibration files: JetFitterCalibrationCoefficientsRel13
+#BTAG# -> Calibration channel aliases: ['myOwnCollection->Cone4H1Tower', 'AntiKt4Tower->AntiKt4Tower,AntiKt4H1Tower', 'AntiKt4Topo->AntiKt4Topo,AntiKt4H1Topo', 'AntiKt6Tower->AntiKt6Tower,AntiKt6H1Tower', 'AntiKt6Topo->AntiKt6Topo,AntiKt6H1Topo,AntiKt6H1Tower', 'AntiKt4TopoEM->AntiKt4TopoEM,AntiKt4H1Topo', 'AntiKt6TopoEM->AntiKt6TopoEM,AntiKt6H1Topo,AntiKt6H1Tower']
+#BTAG# -> Store secondary vertices: False
+#BTAG# -> List of active taggers:  IP1D IP2D IP2DNeg IP3D IP3DNeg SV0 SV1 SV2 JetProb JetProbFlip SoftEl SoftMu JetFitterNN TrackCounting TrackCountingFlip
+#BTAG# -> Results of the following tags are used for FlavourTagWeight(): IP3D SV1
+#BTAG# -> Chosen BaselineTagger (combinedLikelihood):  IP3D+SV1
+
+#BTAG# -> doJetTagNtuple: False
+#BTAG# -> JetTagNtupleName: JetTagNtuple.root
+#BTAG# -> doJetTagSlimNtuple: False
+#BTAG# -> JetTagSlimNtupleName: JetTagSlimNtuple.root
+#BTAG# -> Use latest re-tagged jet collections for ntuple: True
+#BTAG# ---------------------------------------------------------------------------------------------
+#BTAG# --> b-tagging: using  GEN_AOD  as truth key
+#BTAG# --> b-tagging: re-tagging those jet collections:  ['AntiKt4TopoEM']
+Py:Athena            INFO including file "JetTagCalibration/BTagCalibrationBroker_jobOptions.py"
+#BTAG# running offline -> btag calib root folder is /GLOBAL/BTagCalib/
+Py:Athena            INFO including file "BTagging/BTagging_InDetVKalVxInJetTool.py"
+Py:Athena            INFO including file "BTagging/BTagging_InDetVKalVxNegInJetTool.py"
+Py:Athena            INFO including file "BTagging/BTagging_NewJetFitterFinder.py"
+Py:Athena            INFO including file "BTagging/BTagging_IP1DTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_IP2DTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_IP2DNegTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_IP3DTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_IP3DNegTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_SV1Tag.py"
+Py:Athena            INFO including file "BTagging/BTagging_SV2Tag.py"
+Py:Athena            INFO including file "BTagging/BTagging_SV0Tag.py"
+Py:Athena            INFO including file "BTagging/BTagging_JetProbTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_JetProbFlipTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_SoftElectronTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_SoftMuonTag.py"
+Py:Athena            INFO including file "BTagging/BTagging_JetFitterTagNN.py"
+Py:Athena            INFO including file "BTagging/BTagging_JetFitterCOMBNN.py"
+Py:Athena            INFO including file "BTagging/BTagging_TrackCounting.py"
+Py:Athena            INFO including file "BTagging/BTagging_TrackCountingFlip.py"
+Py:Athena            INFO including file "RecExCommon/RecoUtils.py"
+Py:RecoUtils         INFO Memory address space VSize soft limit : unlimited hard limit: unlimited 
+Py:RecoUtils         INFO Memory resident state RSS soft limit : unlimited hard limit: unlimited 
+Generated OutFileName aodtodpd
+Py:Athena            INFO including file "PerfMonComps/PerfMonSvc_jobOptions.py"
+Py:Athena            INFO including file "RecExCommon/PrintRecoSummary.py"
+TrfJobReport metaData_geometryVersion = ATLAS-GEO-16-00-00
+TrfJobReport metaData_conditionsTag = OFLCOND-SDR-BS7T-04-13
+TrfJobReport metaData_BeamType = collisions
+Py:Athena            INFO including file "AthenaCommon/runbatch.py"
+/afs/cern.ch/atlas/software/releases/16.6.5/GAUDI/v21r9p3b/InstallArea/python/GaudiPython/Bindings.py:660: DeprecationWarning: object.__new__() takes no parameters
+  newobj = object.__new__( cls, *args, **kwargs )
+ApplicationMgr       INFO Updating ROOT::Reflex::PluginService::SetDebug(level) to level=0
+ApplicationMgr    SUCCESS 
+====================================================================================================================================
+                                                   Welcome to ApplicationMgr $Revision: 1.77 $
+                                          running on atint04.cern.ch on Fri Aug 12 15:35:06 2011
+====================================================================================================================================
+ApplicationMgr       INFO Successfully loaded modules : AthenaServices
+ApplicationMgr       INFO Application Manager Configured successfully
+ApplicationMgr                                       INFO Updating ROOT::Reflex::PluginService::SetDebug(level) to level=0
+Py:AutoConfigConsistencyCheckSvc    INFO Now checking AutoConfiguration see https://twiki.cern.ch/twiki/bin/view/Atlas/RecExCommonAutoConfiguration
+Py:AutoConfigConsistencyCheckSvc    INFO AutoConfiguration requested, athena input file list and AthenaCommonFlags.FilesInput  are identical. All Ok!
+Py:PerfMonSvc        INFO problem retrieving domains-registry...
+StatusCodeSvc                                        INFO initialize
+PerfMonSvc:    INFO Initializing PerfMonSvc...
+PerfMonSvc:    INFO monitoring level: 0
+PerfMonSvc:    INFO opening pmon-stream file [ntuple_aodtodpd.pmon.stream]...
+PerfMonSvc:    INFO Retrieving PyPerfMonSvc object...
+PerfMonSvc:    INFO Retrieving PyPerfMonSvc object...
+PerfMonSvc:    INFO Retrieving PyPerfMonSvc object... [OK]
+Py:PerfMonSvc        INFO initialization [cpu=13785.904 ms vmem= 173.219 MB]
+Py:PerfMonSvc        INFO configuring PerfMonSvc to store perfmon-infos into [ntuple_aodtodpd.pmon.gz]
+Py:PerfMonSvc        INFO Components being monitored: 1
+Py:PerfMonSvc        INFO I/O containers: 0
+Py:PerfMonSvc        INFO pmon-stream: [ntuple_aodtodpd.pmon.stream]
+Py:PerfMonSvc        INFO installing pmon-malloc hooks: False
+Py:PerfMonSvc        INFO pmon-malloc hooks enabled: False
+Py:PerfMonSvc        INFO initialization [cpu=15059.710 ms vmem= 185.836 MB] [OK]
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.list<int>=list.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.list<long>=list.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.list<float>=list.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.list<double>=list.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.list<string>=list.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.map<string,int>=map.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.map<string,float>=map.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.map<string,double>=map.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.map<int,int>=map2.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.multimap<string,int>=multimap.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.set<int>=set.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.set<long>=set.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.set<float>=set.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.set<double>=set.dll> for level 0; ignored
+TEnvRec::ChangeValue:0: RuntimeWarning: duplicate entry <Library.set<string>=set.dll> for level 0; ignored
+Note: (file "(tmpfile)", line 2) File "vector" already loaded
+THistSvc                                          WARNING no stream "AANT" associated with id: "/AANT/Lumi"
+ToolSvc.GoodRunsListSelectorTool                  WARNING Set to pass-through mode.
+RootDBase.open Success AOD.pool.root File version:52600
+__Warning: use COOL_DISABLE_CORALCONNECTIONPOOLCLEANUP__
+Data source lookup using /afs/cern.ch/atlas/software/releases/16.6.5/DBRelease/current/XMLConfig/dblookup.xml file
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service geomDB/geomDB_sqlite (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:geomDB/geomDB_sqlite": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service geomDB/geomDB_sqlite (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:geomDB/geomDB_sqlite": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )
+3MYSQL singleton created from scratch at location <0x126535a0
+ AtlasDetectorID::initialize_from_dictionary - OK 
+MuonIdHelper::init_neighbors 
+ AtlasDetectorID::initialize_from_dictionary - OK 
+MuonIdHelper::init_neighbors 
+ AtlasDetectorID::initialize_from_dictionary - OK 
+MuonIdHelper::init_neighbors 
+ AtlasDetectorID::initialize_from_dictionary - OK 
+MuonIdHelper::init_neighbors 
+CORAL/Services/ConnectionService Warning Failed to connect to service geomDB/geomDB_sqlite (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:geomDB/geomDB_sqlite": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )
+  Add to m_AGDD2GeoSwitches BAR_Toroid
+  Add to m_AGDD2GeoSwitches Feet
+  Add to m_AGDD2GeoSwitches RailAssembly
+  Add to m_AGDD2GeoSwitches pp2
+  Add to m_AGDD2GeoSwitches MBAP_AccessPlatform
+  Add to m_AGDD2GeoSwitches MBWH_BigWheels
+  Add to m_AGDD2GeoSwitches SADL_CalorimeterSaddle
+  Add to m_AGDD2GeoSwitches TBWH_BigWheels
+  Add to m_AGDD2GeoSwitches TGC3_BigWheels
+  Add to m_AGDD2GeoSwitches TGC1_BigWheels
+  Add to m_AGDD2GeoSwitches servicesAtZ0
+  Add to m_AGDD2GeoSwitches HFTruckRail
+-------------- this is ParseAMDC ---------------
+--------------- MuonVersion ------------
+ AGDD2GeoSvc is locked! trying to build from AGDD2GeoFlags...
+ ----> building structure BAR_Toroid
+ ----> building structure Feet
+ ----> building structure RailAssembly
+ ----> building structure pp2
+ ----> building structure MBAP_AccessPlatform
+ ----> building structure MBWH_BigWheels
+ ----> building structure SADL_CalorimeterSaddle
+ ----> building structure TBWH_BigWheels
+ ----> building structure TGC3_BigWheels
+ ----> building structure TGC1_BigWheels
+ ----> building structure servicesAtZ0
+ ----> building structure HFTruckRail
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflCisLin) for folder: "/TILE/OFL01/CALIB/CIS/FIT/LIN"
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflCisNln) for folder: "/TILE/OFL01/CALIB/CIS/FIT/NLN"
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflLasLin) for folder: "/TILE/OFL01/CALIB/LAS/LIN"
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflLasNln) for folder: "/TILE/OFL01/CALIB/LAS/NLN"
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflLasFib) for folder: "/TILE/OFL01/CALIB/LAS/FIBER"
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflCes) for folder: "/TILE/OFL01/CALIB/CES"
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflEms) for folder: "/TILE/OFL01/CALIB/EMS"
+ToolSvc.TileCondToolEmscale                          INFO Loading of online calibration folders not requested, since OnlCacheUnit=Invalid
+ToolSvc.TileCondToolNoiseSample.TileCondProxyCo...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolNoiseSample.TileCondProxyCool_NoiseSample) for folder: "/TILE/OFL01/NOISE/SAMPLE"
+ToolSvc.TileCondToolTiming.TileCondProxyCool_Ad...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolTiming.TileCondProxyCool_AdcOffset) for folder: "/TILE/OFL01/TIME/CHANNELOFFSET/PHY"
+ToolSvc.TileCondToolTiming.TileCondProxyCool_Mo...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolTiming.TileCondProxyCool_ModOffset) for folder: "/TILE/OFL01/TIME/DRAWEROFFSET/LAS"
+ToolSvc.TileCondToolTiming.TileCondProxyCool_Ce...   INFO Creating TileCondProxyCool(ToolSvc.TileCondToolTiming.TileCondProxyCool_CellFiber) for folder: "/TILE/OFL01/TIME/CELLFIBERLENGTH"
+ToolSvc.TileCondToolTiming.TileCondProxyCool_Tof     INFO Creating TileCondProxyCool(ToolSvc.TileCondToolTiming.TileCondProxyCool_Tof) for folder: "/TILE/OFL01/TIME/TIMEOFFLIGHT"
+CORAL/Services/ConnectionService Warning Failed to connect to service geomDB/geomDB_sqlite (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:geomDB/geomDB_sqlite": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )
+ToolSvc.TileBadChanTool.TileCondProxyCool_OflBch     INFO Creating TileCondProxyCool(ToolSvc.TileBadChanTool.TileCondProxyCool_OflBch) for folder: "/TILE/OFL01/STATUS/ADC"
+ToolSvc.TileBadChanTool.TileCondProxyCool_OnlBch     INFO Creating TileCondProxyCool(ToolSvc.TileBadChanTool.TileCondProxyCool_OnlBch) for folder: "/TILE/ONL01/STATUS/ADC"
+AthenaEventLoopMgr                                   INFO Initializing AthenaEventLoopMgr - package version AthenaServices-01-52-11-02
+
+[1mRooFit v3.12 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2009 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+MagFieldParam                                        INFO MagFieldParam SetDefault     
+MagFieldParam                                        INFO MagFieldParam SetDefault     
+AtlasTrackingGeometrySvc                             INFO initialize() successful! 
+ToolSvc.SVForIPTool_IP1D                             INFO  Initialization of SVForIPTool succesfull
+ToolSvc.BTagTrackToVertexIPEstimator                 INFO Retrieved tool Extrapolator = PublicToolHandle('Trk::Extrapolator/AtlasExtrapolator')
+ToolSvc.BTagTrackToVertexIPEstimator                 INFO Retrieved tool VertexUpdator = PublicToolHandle('Trk::KalmanVertexUpdator')
+ToolSvc.BTagTrackToVertexIPEstimator                 INFO Retrieved tool LinearizedTrackFactory = PublicToolHandle('Trk::FullLinearizedTrackFactory/BTagFullLinearizedTrackFactory')
+ToolSvc.IP1DTag                                      INFO #BTAG# Defining 2 track partitions: 
+ToolSvc.IP1DTag                                      INFO #BTAG# GradePartition: [  Good ]
+ToolSvc.IP1DTag                                      INFO #BTAG# GradePartition: [  Shared ]
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Calibration channel alias: myOwnCollection -> Cone4H1Tower
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Calibration channel alias: AntiKt4Tower -> AntiKt4Tower,AntiKt4H1Tower
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Calibration channel alias: AntiKt4Topo -> AntiKt4Topo,AntiKt4H1Topo
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Calibration channel alias: AntiKt6Tower -> AntiKt6Tower,AntiKt6H1Tower
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Calibration channel alias: AntiKt6Topo -> AntiKt6Topo,AntiKt6H1Topo,AntiKt6H1Tower
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Calibration channel alias: AntiKt4TopoEM -> AntiKt4TopoEM,AntiKt4H1Topo
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Calibration channel alias: AntiKt6TopoEM -> AntiKt6TopoEM,AntiKt6H1Topo,AntiKt6H1Tower
+ToolSvc.IP1DNewLikelihoodTool                        INFO #BTAG# - hypotheses : B, U, 
+ToolSvc.IP1DNewLikelihoodTool                        INFO #BTAG# - histograms : 
+ToolSvc.IP1DNewLikelihoodTool                        INFO B/Good/SipZ0
+ToolSvc.IP1DNewLikelihoodTool                        INFO U/Good/SipZ0
+ToolSvc.IP1DNewLikelihoodTool                        INFO B/Shared/SipZ0
+ToolSvc.IP1DNewLikelihoodTool                        INFO U/Shared/SipZ0
+ToolSvc.IP1DNewLikelihoodTool                        INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.SVForIPTool_IP2D                             INFO  Initialization of SVForIPTool succesfull
+ToolSvc.IP2DTag                                      INFO #BTAG# Defining 2 track partitions: 
+ToolSvc.IP2DTag                                      INFO #BTAG# GradePartition: [  Good ]
+ToolSvc.IP2DTag                                      INFO #BTAG# GradePartition: [  Shared ]
+ToolSvc.IP2DNewLikelihoodTool                        INFO #BTAG# - hypotheses : B, U, 
+ToolSvc.IP2DNewLikelihoodTool                        INFO #BTAG# - histograms : 
+ToolSvc.IP2DNewLikelihoodTool                        INFO B/Good/SipA0
+ToolSvc.IP2DNewLikelihoodTool                        INFO U/Good/SipA0
+ToolSvc.IP2DNewLikelihoodTool                        INFO B/Shared/SipA0
+ToolSvc.IP2DNewLikelihoodTool                        INFO U/Shared/SipA0
+ToolSvc.IP2DNewLikelihoodTool                        INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.SVForIPTool_IP2DNeg                          INFO  Initialization of SVForIPTool succesfull
+ToolSvc.IP2DNegTag                                   INFO #BTAG# Defining 2 track partitions: 
+ToolSvc.IP2DNegTag                                   INFO #BTAG# GradePartition: [  Good ]
+ToolSvc.IP2DNegTag                                   INFO #BTAG# GradePartition: [  Shared ]
+ToolSvc.IP2DNegNewLikelihoodTool                     INFO #BTAG# - hypotheses : B, U, 
+ToolSvc.IP2DNegNewLikelihoodTool                     INFO #BTAG# - histograms : 
+ToolSvc.IP2DNegNewLikelihoodTool                     INFO B/Good/SipA0
+ToolSvc.IP2DNegNewLikelihoodTool                     INFO U/Good/SipA0
+ToolSvc.IP2DNegNewLikelihoodTool                     INFO B/Shared/SipA0
+ToolSvc.IP2DNegNewLikelihoodTool                     INFO U/Shared/SipA0
+ToolSvc.IP2DNegNewLikelihoodTool                     INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.SVForIPTool_IP3D                             INFO  Initialization of SVForIPTool succesfull
+ToolSvc.IP3DTag                                      INFO #BTAG# Defining 2 track partitions: 
+ToolSvc.IP3DTag                                      INFO #BTAG# GradePartition: [  Good ]
+ToolSvc.IP3DTag                                      INFO #BTAG# GradePartition: [  Shared ]
+ToolSvc.IP3DNewLikelihoodTool                        INFO #BTAG# - hypotheses : B, U, 
+ToolSvc.IP3DNewLikelihoodTool                        INFO #BTAG# - histograms : 
+ToolSvc.IP3DNewLikelihoodTool                        INFO B/Good/Sip3D
+ToolSvc.IP3DNewLikelihoodTool                        INFO U/Good/Sip3D
+ToolSvc.IP3DNewLikelihoodTool                        INFO B/Shared/Sip3D
+ToolSvc.IP3DNewLikelihoodTool                        INFO U/Shared/Sip3D
+ToolSvc.IP3DNewLikelihoodTool                        INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.SVForIPTool_IP3DNeg                          INFO  Initialization of SVForIPTool succesfull
+ToolSvc.IP3DNegTag                                   INFO #BTAG# Defining 2 track partitions: 
+ToolSvc.IP3DNegTag                                   INFO #BTAG# GradePartition: [  Good ]
+ToolSvc.IP3DNegTag                                   INFO #BTAG# GradePartition: [  Shared ]
+ToolSvc.IP3DNegNewLikelihoodTool                     INFO #BTAG# - hypotheses : B, U, 
+ToolSvc.IP3DNegNewLikelihoodTool                     INFO #BTAG# - histograms : 
+ToolSvc.IP3DNegNewLikelihoodTool                     INFO B/Good/Sip3D
+ToolSvc.IP3DNegNewLikelihoodTool                     INFO U/Good/Sip3D
+ToolSvc.IP3DNegNewLikelihoodTool                     INFO B/Shared/Sip3D
+ToolSvc.IP3DNegNewLikelihoodTool                     INFO U/Shared/Sip3D
+ToolSvc.IP3DNegNewLikelihoodTool                     INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.SV1Tag                                       INFO #BTAG# ToolSvc.SV1TagParameter settings 
+ToolSvc.SV1Tag                                       INFO #BTAG# I am in analysis modus.
+ToolSvc.SV1Tag                                       INFO #BTAG# The method is SV1
+ToolSvc.SV1Tag                                       INFO #BTAG# Retrieved tool LikelihoodTool = PublicToolHandle('Analysis::NewLikelihoodTool/SV1NewLikelihoodTool')
+ToolSvc.SV1NewLikelihoodTool                         INFO #BTAG# - hypotheses : B, U, 
+ToolSvc.SV1NewLikelihoodTool                         INFO #BTAG# - histograms : 
+ToolSvc.SV1NewLikelihoodTool                         INFO B/N2T
+ToolSvc.SV1NewLikelihoodTool                         INFO B/BidimME
+ToolSvc.SV1NewLikelihoodTool                         INFO B/DRJPVSV
+ToolSvc.SV1NewLikelihoodTool                         INFO U/N2T
+ToolSvc.SV1NewLikelihoodTool                         INFO U/BidimME
+ToolSvc.SV1NewLikelihoodTool                         INFO U/DRJPVSV
+ToolSvc.SV1NewLikelihoodTool                         INFO B/N2TEffSV1
+ToolSvc.SV1NewLikelihoodTool                         INFO B/N2TNormSV1
+ToolSvc.SV1NewLikelihoodTool                         INFO U/N2TEffSV1
+ToolSvc.SV1NewLikelihoodTool                         INFO U/N2TNormSV1
+ToolSvc.SV1NewLikelihoodTool                         INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.SV2Tag                                       INFO #BTAG# ToolSvc.SV2TagParameter settings 
+ToolSvc.SV2Tag                                       INFO #BTAG# I am in analysis modus.
+ToolSvc.SV2Tag                                       INFO #BTAG# The method is SV2
+ToolSvc.SV2Tag                                       INFO #BTAG# Retrieved tool LikelihoodTool = PublicToolHandle('Analysis::NewLikelihoodTool/SV2NewLikelihoodTool')
+ToolSvc.SV2NewLikelihoodTool                         INFO #BTAG# - hypotheses : B, U, 
+ToolSvc.SV2NewLikelihoodTool                         INFO #BTAG# - histograms : 
+ToolSvc.SV2NewLikelihoodTool                         INFO B/TridimMEN2T
+ToolSvc.SV2NewLikelihoodTool                         INFO U/TridimMEN2T
+ToolSvc.SV2NewLikelihoodTool                         INFO B/N2TEffSV2
+ToolSvc.SV2NewLikelihoodTool                         INFO B/N2TNormSV2
+ToolSvc.SV2NewLikelihoodTool                         INFO U/N2TEffSV2
+ToolSvc.SV2NewLikelihoodTool                         INFO U/N2TNormSV2
+ToolSvc.SV2NewLikelihoodTool                         INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.SV0Tag                                       INFO #BTAG# ToolSvc.SV0TagParameter settings 
+ToolSvc.SV0Tag                                       INFO #BTAG# I am in analysis modus.
+ToolSvc.SV0Tag                                       INFO #BTAG# The method is SV0
+ToolSvc.JetProbTag                                   INFO #BTAG# Retrieved tool trackToVertexTool = PublicToolHandle('Reco::TrackToVertex/BTagTrackToVertexTool')
+ToolSvc.SVForIPTool_JetProb                          INFO  Initialization of SVForIPTool succesfull
+ToolSvc.JetProbTag                                   INFO #BTAG# Retrieved tool SVForIPTool = PublicToolHandle('Analysis::SVForIPTool/SVForIPTool_JetProb')
+ToolSvc.JetProbTag                                   INFO #BTAG# Retrieved tool trackGradeFactory = PublicToolHandle('Analysis::BasicTrackGradeFactory/JetProbBasicTrackGradeFactory')
+ToolSvc.JetProbTag                                   INFO #BTAG# Retrieved tool trackSelectorTool = PublicToolHandle('Analysis::TrackSelector/JetProbTrackSelector')
+ToolSvc.JetProbTag                                   INFO #BTAG# Retrieved tool TrackToVertexIPEstimator = PublicToolHandle('Trk::TrackToVertexIPEstimator/BTagTrackToVertexIPEstimator')
+ToolSvc.JetProbTag                                   INFO #BTAG#  Defining 2 track partitions: 
+ToolSvc.JetProbTag                                   INFO #BTAG# GradePartition: [  Good ]
+ToolSvc.JetProbTag                                   INFO #BTAG# GradePartition: [  Shared ]
+ToolSvc.JetProbTag                                   INFO #BTAG# Retrieved tool calibrationTool = PublicToolHandle('Analysis::CalibrationBroker/BTagCalibrationBrokerTool')
+ToolSvc.JetProbTag                                   INFO #BTAG# Registering calibration fit from MC
+ToolSvc.JetProbFlipTag                               INFO #BTAG# Retrieved tool trackToVertexTool = PublicToolHandle('Reco::TrackToVertex/BTagTrackToVertexTool')
+ToolSvc.JetProbFlipTag                               INFO #BTAG# Retrieved tool SVForIPTool = PublicToolHandle('Analysis::SVForIPTool/SVForIPTool_JetProb')
+ToolSvc.JetProbFlipTag                               INFO #BTAG# Retrieved tool trackGradeFactory = PublicToolHandle('Analysis::BasicTrackGradeFactory/JetProbBasicTrackGradeFactory')
+ToolSvc.JetProbFlipTag                               INFO #BTAG# Retrieved tool trackSelectorTool = PublicToolHandle('Analysis::TrackSelector/JetProbTrackSelector')
+ToolSvc.JetProbFlipTag                               INFO #BTAG# Retrieved tool TrackToVertexIPEstimator = PublicToolHandle('Trk::TrackToVertexIPEstimator/BTagTrackToVertexIPEstimator')
+ToolSvc.JetProbFlipTag                               INFO #BTAG#  Defining 2 track partitions: 
+ToolSvc.JetProbFlipTag                               INFO #BTAG# GradePartition: [  Good ]
+ToolSvc.JetProbFlipTag                               INFO #BTAG# GradePartition: [  Shared ]
+ToolSvc.JetProbFlipTag                               INFO #BTAG# Retrieved tool calibrationTool = PublicToolHandle('Analysis::CalibrationBroker/BTagCalibrationBrokerTool')
+ToolSvc.JetProbFlipTag                               INFO #BTAG# Registering calibration fit from MC
+ToolSvc.SoftElectronTagNewLikelihoodTool             INFO #BTAG# - hypotheses : Sig, Bkg, 
+ToolSvc.SoftElectronTagNewLikelihoodTool             INFO #BTAG# - histograms : 
+ToolSvc.SoftElectronTagNewLikelihoodTool             INFO Sig/pTrel
+ToolSvc.SoftElectronTagNewLikelihoodTool             INFO Sig/d0
+ToolSvc.SoftElectronTagNewLikelihoodTool             INFO Bkg/pTrel
+ToolSvc.SoftElectronTagNewLikelihoodTool             INFO Bkg/d0
+ToolSvc.SoftElectronTagNewLikelihoodTool             INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.SoftMuonTag                                  INFO #BTAG# Initializing...
+ToolSvc.SoftMuonTag                                  INFO #BTAG# ToolSvc.SoftMuonTagParameter settings 
+ToolSvc.SoftMuonTag                                  INFO #BTAG# I am in analysis modus.
+ToolSvc.SoftMuonTag                                  INFO #BTAG# The method is L1D
+ToolSvc.SoftMuonTag                                  INFO #BTAG# Retrieved tool TrackToVertexTool = PublicToolHandle('Reco::TrackToVertex/BTagTrackToVertexTool')
+ToolSvc.SoftMuonTag                                  INFO #BTAG# Reading histos...
+ToolSvc.SoftMuonTag                                  INFO #BTAG# Retrieved tool LikelihoodTool = PublicToolHandle('Analysis::NewLikelihoodTool/SoftMuonTagNewLikelihoodTool')
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO #BTAG# - hypotheses : SoftMb, SoftMl, SoftMc, 
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO #BTAG# - histograms : 
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMb/JetETEffL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMb/JetETNormL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMb/JetETLowPtEffL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMb/JetETLowPtNormL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMb/pTrel
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMb/pTrelLowPt
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMl/JetETEffL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMl/JetETNormL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMl/JetETLowPtEffL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMl/JetETLowPtNormL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMl/pTrel
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMl/pTrelLowPt
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMc/JetETEffL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMc/JetETNormL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMc/JetETLowPtEffL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMc/JetETLowPtNormL1D
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMc/pTrel
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO SoftMc/pTrelLowPt
+ToolSvc.SoftMuonTagNewLikelihoodTool                 INFO #BTAG# - status of underlying calibrations: 
+ToolSvc.JetFitterNtupleWriterNN                      INFO ToolSvc.JetFitterNtupleWriterNN: HistoSvc loaded successfully.
+ToolSvc.JetFitterNtupleWriterNN                      INFO  Initialization of JetFitterNtupleWriter succesfull
+ToolSvc.JetFitterVariablesFactoryNN                  INFO  Initialization of JetFitterVariablesFactory succesfull
+ToolSvc.JetFitterNNTool                              INFO  Retrieved: calibrationTool = PublicToolHandle('Analysis::CalibrationBroker/BTagCalibrationBrokerTool')
+ToolSvc.NeuralNetworkToHistoToolNN                   INFO  Initialization of NeuralNetworkToHistoTool succesfull
+ToolSvc.JetFitterNNTool                              INFO  Retrieved: NeuralNetworkToHistoTool = PublicToolHandle('Trk::NeuralNetworkToHistoTool/NeuralNetworkToHistoToolNN'). 
+ToolSvc.JetFitterNNTool                              INFO Calibration setting: cannot use Neural Network with more than: 4.
+ToolSvc.JetFitterNNTool                              INFO  Initialization of JetFitterNNTool succesfull
+ToolSvc.JetFitterNtupleWriterCOMBNN                  INFO ToolSvc.JetFitterNtupleWriterCOMBNN: HistoSvc loaded successfully.
+ToolSvc.JetFitterNtupleWriterCOMBNN                  INFO  Initialization of JetFitterNtupleWriter succesfull
+ToolSvc.JetFitterVariablesFactoryCOMBNN              INFO  Initialization of JetFitterVariablesFactory succesfull
+ToolSvc.JetFitterCOMBNNTool                          INFO  Retrieved: calibrationTool = PublicToolHandle('Analysis::CalibrationBroker/BTagCalibrationBrokerTool')
+ToolSvc.JetFitterCOMBNNTool                          INFO  Retrieved: NeuralNetworkToHistoTool = PublicToolHandle('Trk::NeuralNetworkToHistoTool/NeuralNetworkToHistoToolNN'). 
+ToolSvc.JetFitterCOMBNNTool                          INFO Calibration setting: cannot use Neural Network with more than: 4.
+ToolSvc.JetFitterCOMBNNTool                          INFO  Initialization of JetFitterNNTool succesfull
+ToolSvc.SVForIPTool_TrackCounting                    INFO  Initialization of SVForIPTool succesfull
+ToolSvc.TrackCounting                                INFO #BTAG# #BTAG# GradePartition: [  Good ]
+ToolSvc.TrackCounting                                INFO #BTAG# #BTAG# GradePartition: [  Shared ]
+ToolSvc.SVForIPTool_TrackCountingFlip                INFO  Initialization of SVForIPTool succesfull
+ToolSvc.TrackCountingFlip                            INFO #BTAG# #BTAG# GradePartition: [  Good ]
+ToolSvc.TrackCountingFlip                            INFO #BTAG# #BTAG# GradePartition: [  Shared ]
+ToolSvc.InDetVKalVxInJetTool.VertexFitterTool        INFO TrkVKalVrtFitter initialize() successful
+ToolSvc.InDetVKalVxNegInJetTool.VertexFitterTool     INFO TrkVKalVrtFitter initialize() successful
+ToolSvc.NewJetFitterVxFinder                         INFO JetFitter Helper retrieved
+ToolSvc.ImprovedJetFitterInitializationHelper        INFO Initialize successful
+ToolSvc.NewJetFitterVxFinder                         INFO JetFitter Initialization Helper retrieved
+ToolSvc.TrkDistanceFinderNeutralCharged              INFO Initialize successful
+ToolSvc.TrkDistanceFinderNeutralNeutral              INFO Initialize successful
+ToolSvc.ImprovedJetFitterRoutines                    INFO Initialize successful
+ToolSvc.NewJetFitterVxFinder                         INFO JetFitter Routines class retrieved
+ToolSvc.NewJetFitterVxFinder                         INFO Track filter retrieved
+ToolSvc.InDetJetFitterUtils                          INFO Initialize successful
+ToolSvc.NewJetFitterVxFinder                         INFO  JetFitterUtils retrieved
+ToolSvc.NewJetFitterVxFinder                         INFO  CrossDistancesSeedFinder tool retrieved
+ToolSvc.NewJetFitterVxFinder                         INFO  Mode3DFinder tool retrieved
+ToolSvc.NewJetFitterVxFinder                         INFO  Sequential vertex fitter retrieved 
+ToolSvc.NewJetFitterVxFinder                         INFO  Extrapolator retrieved 
+ToolSvc.NewJetFitterVxFinder                         INFO Initialize successful
+TClassTable::Add:0: RuntimeWarning: class pair<string,string> already in TClassTable
+ConvertAODToMTree                                    INFO Initializing ConvertAODToMTree
+ConvertAODToMTree                                    INFO Electron pT cut: 0
+ConvertAODToMTree                                    INFO Photon pT cut  : 10
+ConvertAODToMTree                                    INFO Track pT cut   : 1
+CORAL/Services/ConnectionService Warning Failed to connect to service geomDB/geomDB_sqlite (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:geomDB/geomDB_sqlite": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )
+ToolSvc.TileVolumeBuilder                            INFO Retrieved tool MagneticFieldTool = PublicToolHandle('Trk::MagneticFieldTool/AtlasMagneticFieldTool')
+ToolSvc.TileVolumeBuilder                            INFO Retrieved tool TrackingVolumeHelper = PublicToolHandle('Trk::TrackingVolumeHelper/TrackingVolumeHelper')
+ToolSvc.TileVolumeBuilder                            INFO Retrieved tools: MaterialEffectsOnTrackProviders = PublicToolHandleArray(['Calo::MaterialEffectsOnTrackProvider/CaloMaterialEffectsOnTrackProvider'])
+ToolSvc.TileVolumeBuilder                            INFO Retrieved tool CaloSurfaceBuilder = PublicToolHandle('CaloSurfaceBuilder')
+ToolSvc.TileVolumeBuilder                            INFO  intialize() successful
+AthenaEventLoopMgr                                   INFO Setup EventSelector service EventSelector
+ApplicationMgr                                       INFO Application Manager Initialized successfully
+RootDBase.open Success AOD.pool.root File version:52600
+ApplicationMgr                                       INFO Application Manager Started successfully
+AthenaEventLoopMgr                                   INFO   ===>>>  start of run 109074    <<<===
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+CORAL/Services/ConnectionService Warning Failed to connect to service sqlite200/ALLP200.db (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:sqlite200/ALLP200.db": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/sqlite200 is not writable" )
+RootDBase.open Success /afs/cern.ch/atlas/software/releases/16.6.5/DBRelease/15.6.2/poolcond/oflcond.000002.conditions.simul.pool.v0000/oflcond.000002.conditions.simul.pool.v0000._0028.pool.root File version:51000
+RootDBase.open Success /afs/cern.ch/atlas/software/releases/16.6.5/DBRelease/15.6.2/poolcond/oflcond.000002.conditions.simul.pool.v0000/oflcond.000002.conditions.simul.pool.v0000._0029.pool.root File version:51000
+RootDBase.open Success /afs/cern.ch/atlas/software/releases/16.6.5/DBRelease/15.6.2/poolcond/cond09_mc.000019.gen.COND/cond09_mc.000019.gen.COND._0010.pool.root File version:52200
+RootDBase.open Success /afs/cern.ch/atlas/software/releases/16.6.5/DBRelease/15.6.2/poolcond/cond09_mc.000016.gen.COND/cond09_mc.000016.gen.COND._0001.pool.root File version:52200
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflCisLin: callback has been triggered by: /TILE/OFL01/CALIB/CIS/FIT/LIN 
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflCisNln: callback has been triggered by: /TILE/OFL01/CALIB/CIS/FIT/NLN 
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflLasLin: callback has been triggered by: /TILE/OFL01/CALIB/LAS/LIN 
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflLasNln: callback has been triggered by: /TILE/OFL01/CALIB/LAS/NLN 
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflLasFib: callback has been triggered by: /TILE/OFL01/CALIB/LAS/FIBER 
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflCes: callback has been triggered by: /TILE/OFL01/CALIB/CES 
+ToolSvc.TileCondToolEmscale.TileCondProxyCool_O...   INFO ToolSvc.TileCondToolEmscale.TileCondProxyCool_OflEms: callback has been triggered by: /TILE/OFL01/CALIB/EMS 
+ToolSvc.TileCondToolNoiseSample.TileCondProxyCo...   INFO ToolSvc.TileCondToolNoiseSample.TileCondProxyCool_NoiseSample: callback has been triggered by: /TILE/OFL01/NOISE/SAMPLE 
+ToolSvc.TileCondToolTiming.TileCondProxyCool_Ad...   INFO ToolSvc.TileCondToolTiming.TileCondProxyCool_AdcOffset: callback has been triggered by: /TILE/OFL01/TIME/CHANNELOFFSET/PHY 
+ToolSvc.TileCondToolTiming.TileCondProxyCool_Mo...   INFO ToolSvc.TileCondToolTiming.TileCondProxyCool_ModOffset: callback has been triggered by: /TILE/OFL01/TIME/DRAWEROFFSET/LAS 
+ToolSvc.TileCondToolTiming.TileCondProxyCool_Ce...   INFO ToolSvc.TileCondToolTiming.TileCondProxyCool_CellFiber: callback has been triggered by: /TILE/OFL01/TIME/CELLFIBERLENGTH 
+ToolSvc.TileCondToolTiming.TileCondProxyCool_Tof     INFO ToolSvc.TileCondToolTiming.TileCondProxyCool_Tof: callback has been triggered by: /TILE/OFL01/TIME/TIMEOFFLIGHT 
+ToolSvc.TileBadChanTool.TileCondProxyCool_OflBch     INFO ToolSvc.TileBadChanTool.TileCondProxyCool_OflBch: callback has been triggered by: /TILE/OFL01/STATUS/ADC 
+ToolSvc.TileBadChanTool.TileCondProxyCool_OnlBch     INFO ToolSvc.TileBadChanTool.TileCondProxyCool_OnlBch: callback has been triggered by: /TILE/ONL01/STATUS/ADC 
+MagFieldParam                                        INFO MagFieldParam SetDefault     
+CORAL/Services/ConnectionService Warning Failed to connect to service geomDB/geomDB_sqlite (coral::Exception): 'CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )' - do NOT retry
+CORAL/Services/ConnectionService Warning Failure while attempting to connect to "sqlite_file:geomDB/geomDB_sqlite": CORAL/RelationalPlugins/sqlite ( CORAL : "Connection::connect" from "/net/s3_data_home/swalch/testarea/16.6.5/MTree/run/geomDB is not writable" )
+ MagFieldAthenaSvc    INFO r tran 90 BFName  /afs/cern.ch/atlas/software/releases/16.6.5/AtlasConditions/16.6.5/MagneticField/BFieldData/share/bmagatlas05_test2.data
+ MagFieldAthenaSvc    INFO r tran 90 Istate1            0
+
+ ===> ReBfield opening 
+
+ /afs/cern.ch/atlas/software/releases/16.6.5/AtlasConditions/16.6.5/MagneticField/BFieldData/share/bmagatlas05_test2.data
+
+ ===> opened
+
+  version in REAMAG_PARAMETER B-3D-R.1
+  VERTEMP                     -R.1
+ ===> DTB: -R.1
+  attention temp should be revisted
+
+ ===> Tabulated 3D mag. field version B-3D-R.1 has been read from file No 17 by routine REAMAG
+ ===>                                **********                          ****          ********
+
+
+ ===> Tabulated nonlinear 3D mag. field has been read from file No 17 by routine RFELIX
+ ===>                                                             ****          ********
+
+
+ ===> Tabulated 3D mag. field limits set to :
+ ===> RTORI,ZTORI,RTORO,ZTORO =   423.0   681.5  1500.0  2300.0 (cm)
+
+ MagFieldAthenaSvc    INFO r tran 90
+ MagFieldAthenaSvc    INFO r tran 90 VERTEMP -R.1
+ MagFieldAthenaSvc    INFO r tran 90 Istate2           11
+  InfosChain            0
+  
+  BSOLREAD. reading file /afs/cern.ch/atlas/software/releases/16.6.5/AtlasConditions/16.6.5/MagneticField/BFieldData/share/map7730bes2.grid
+  Version number:            4
+  grid size:          119          25          21
+  zgp: 
+  -2.85000  -2.80000  -2.75000  -2.72000  -2.70500  -2.69000  -2.67600  -2.66400  -2.65100  -2.63900
+  -2.62700  -2.61400  -2.60100  -2.58700  -2.57200  -2.55700  -2.54200  -2.52700  -2.51100  -2.49500
+  -2.47800  -2.46000  -2.44100  -2.42100  -2.39900  -2.37400  -2.34800  -2.31900  -2.28700  -2.25200
+  -2.21400  -2.17200  -2.12800  -2.08100  -2.03000  -1.97400  -1.91800  -1.85700  -1.79600  -1.72900
+  -1.66200  -1.59000  -1.51800  -1.44600  -1.38600  -1.32700  -1.25100  -1.16900  -1.08800  -0.99300
+  -0.89000  -0.78700  -0.67400  -0.56000  -0.43700  -0.31300  -0.21000  -0.12400  -0.05900   0.00000
+   0.05900   0.12400   0.21000   0.31300   0.43700   0.56000   0.67400   0.78700   0.89000   0.99300
+   1.08800   1.16900   1.25100   1.32700   1.38600   1.44600   1.51800   1.59000   1.66200   1.72900
+   1.79600   1.85700   1.91800   1.97400   2.03000   2.08100   2.12800   2.17200   2.21400   2.25200
+   2.28700   2.31900   2.34800   2.37400   2.39900   2.42100   2.44100   2.46000   2.47800   2.49500
+   2.51100   2.52700   2.54200   2.55700   2.57200   2.58700   2.60100   2.61400   2.62700   2.63900
+   2.65100   2.66400   2.67600   2.69000   2.70500   2.72000   2.75000   2.80000   2.85000
+  rgp: 
+   0.00100   0.09400   0.18700   0.27500   0.35800   0.43600   0.50900   0.57700   0.63700   0.69100
+   0.74000   0.78400   0.82400   0.86100   0.89400   0.92500   0.95200   0.97800   1.00100   1.02300
+   1.04200   1.06100   1.07700   1.09300   1.10700
+  fgp: 
+   0.00000   0.39300   0.78500   1.10600   1.23900   1.31600   1.38400   1.45600   1.53900   1.68200
+   1.96300   2.35600   2.74900   3.14200   3.53400   3.92700   4.31900   4.71200   5.10500   5.49800
+   5.89000
+  Reading completed
+  
+  Solenoid grid            1  is set up for: 
+  Z range   -2.8499999      to    2.8499999      meters.
+  R range 0.0 to    1.1070000      meters.
+  
+  Solenoid grid            2  is set up for: 
+  Z range   -2.8350000      to    2.8350000      meters.
+  R range 0.0 to    1.0900000      meters.
+  
+ solefittorsimtilta    0.0000000       0.0000000       0.0000000       0.0000000       0.0000000    
+ solefittorsimtilta    0.0000000      1.59999996E-03   0.0000000       0.0000000       0.0000000    
+ToolSvc.PixelLayerBuilder                            INFO initialize()
+ToolSvc.SCT_LayerBuilder                             INFO initialize()
+ToolSvc.TRT_LayerBuilder                             INFO initialize()
+ToolSvc.InDetCylinderVolumeCreator                   INFO initialize() successful
+ToolSvc.InDetTrackingGeometryBuilder                 INFO Retrieved tool LayerArrayCreator = PublicToolHandle('Trk::LayerArrayCreator/InDetLayerArrayCreator')
+ToolSvc.InDetTrackingGeometryBuilder                 INFO initialize() succesful
+ToolSvc.LArVolumeBuilder                             INFO Retrieved tool MagneticFieldTool = PublicToolHandle('Trk::MagneticFieldTool/AtlasMagneticFieldTool')
+ToolSvc.LArVolumeBuilder                             INFO Retrieved tool TrackingVolumeHelper = PublicToolHandle('Trk::TrackingVolumeHelper/TrackingVolumeHelper')
+ToolSvc.LArVolumeBuilder                             INFO Retrieved tools: MaterialEffectsOnTrackProviders = PublicToolHandleArray(['Calo::MaterialEffectsOnTrackProvider/CaloMaterialEffectsOnTrackProvider'])
+ToolSvc.LArVolumeBuilder                             INFO Retrieved tool CaloSurfaceBuilder = PublicToolHandle('CaloSurfaceBuilder')
+ToolSvc.LArVolumeBuilder                             INFO ToolSvc.LArVolumeBuilder initialize() successful
+AtlasTrackingGeometrySvc                             INFO Retrieved tool GeometryBuilder = PublicToolHandle('Trk::GeometryBuilder/AtlasGeometryBuilder')
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] Start to monitor memory usage of PID: 436343
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] in kB ( VmSize | VmRSS )  : 610980	453552
+RootDBase.open Success /afs/cern.ch/atlas/software/releases/16.6.5/DBRelease/15.6.2/poolcond/cond09_mc.000023.gen.COND/cond09_mc.000023.gen.COND._0002.pool.root File version:52600
+AtlasTrackingGeometrySvc                             INFO [  from COOL   ] MaterialProperties for 177 layers successfully read.
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] Material Maps loaded and created : 
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] in kB ( VmSize | VmRSS )  : 617192	459348
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] TrackingGeometry retrieved: 
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] in kB ( VmSize | VmRSS )  : 677992	520796
+AtlasTrackingGeometrySvc                             INFO [ from Geometry ] MaterialProperties for 177 to be assigned to Layers.
+AtlasTrackingGeometrySvc                             INFO [+] Successfully recovered nominal layer indices for : 177 layers.
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] TrackingGeometry recorded: 
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] in kB ( VmSize | VmRSS )  : 679016	522460
+AtlasTrackingGeometrySvc                             INFO initialize() successful: TrackingGeometry 'AtlasTrackingGeometry' built and written to DetectorStore.
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# found alias entry AntiKt4TopoEM
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# final registered channels 
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Channel AntiKt4TopoEM
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# final registered aliases 
+ToolSvc.BTagCalibrationBrokerTool                    INFO #BTAG# Channel alias AntiKt4TopoEM->AntiKt4TopoEM
+RootDBase.open Success /afs/cern.ch/atlas/software/releases/16.6.5/DBRelease/15.6.2/poolcond/cond08_mc.000003.gen.COND/cond08_mc.000003.gen.COND._0064.pool.root File version:52200
+ToolSvc.TileCondToolTiming                           INFO TileCondToolTiming::recache() has been triggered by: '/TILE/OFL01/TIME/CELLFIBERLENGTH' '/TILE/OFL01/TIME/CHANNELOFFSET/PHY' '/TILE/OFL01/TIME/DRAWEROFFSET/LAS' '/TILE/OFL01/TIME/TIMEOFFLIGHT' 
+ToolSvc.TileBadChanTool                              INFO TileBadChanTool::recache() has been triggered by: '/TILE/OFL01/STATUS/ADC' '/TILE/ONL01/STATUS/ADC' 
+ToolSvc.TileBadChanTool                              INFO Updating TileBchStatus::isBad() definition from DB
+ToolSvc.TileBadChanTool                              INFO Updating TileBchStatus::isNoisy() definition from DB
+ToolSvc.TileBadChanTool                              INFO No TileBchStatus::isNoGainL1() definition found in DB, using defaults
+ToolSvc.TileBadChanTool                              INFO TileBchStatus::isBad() is defined by: ADC masked (unspecified); ADC dead; Very large HF noise; No data; Wrong DSP configuration; Severe stuck bit; Severe data corruption; Channel masked (unspecified); No PMT connected; No HV; Wrong HV; 
+ToolSvc.TileBadChanTool                              INFO TileBchStatus::isNoisy() is defined by: Large HF noise; Correlated noise; Large LF noise; 
+ToolSvc.TileBadChanTool                              INFO TileBchStatus::isNoGainL1() is defined by: ADC dead; No PMT connected; No HV; Channel masked for LV1 (unspecified); LV1 channel no gain; LV1 channel noisy; <no description available>; 
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #35001, run #109074 0 events processed so far  <<<===
+PerfMonSvc:    INFO [ini] cpu=32246.000 ms vmem= 677.477 Mb dvmem= 491.645 Mb alloc= +0 -0    0.000 kb  => [/ini/PerfMonSlice]
+ToolSvc.JetProbFlipTag                               INFO #BTAG# calibration updated -> update cache 
+ToolSvc.JetFitterNNTool                              INFO  Retrieving calibration for NN with: 2 hidden layers.
+ToolSvc.JetFitterCOMBNNTool                          INFO  Retrieving calibration for NN with: 2 hidden layers.
+ConvertAODToMTree                                    INFO Processing Event 1
+ --------------- HepPDT Version 2.06.01 --------------- 
+ --------------- HepPDT Version 2.06.01 --------------- 
+found 259 particles
+FPEAuditor        WARNING FPE DIVBYZERO in [execute of [ConvertAODToMTree]
+FPEAuditor        WARNING FPE DIVBYZERO in [execute of [AthAlgSeq]
+PerfMonSvc:    INFO [evt:   0] cpu=7387.000 ms vmem= 766.770 Mb dvmem=  89.293 Mb alloc= +0 -0    0.000 kb  => [/evt/PerfMonSlice]
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #35001, run #109074 1 events processed so far  <<<===
+ApplicationMgr                                       INFO Application Manager Stopped successfully
+BJetBuilderAntiKt4TopoEM                             INFO #BTAG#  b-tagging summary: called 1 times on 9 jets (b:0, c:0, tau:0, light:9) 
+BJetBuilderAntiKt4TopoEM                             INFO #BTAG#  b-tagging summary for b-jet constituents: <#trk>=0 <#mu>=0 <#el>=0
+BJetBuilderAntiKt4TopoEM                             INFO #BTAG#  b-tagging summary for TrackCounting: <w_all>=-17.7778 <w_b>=0 <w_u>=-17.7778
+BJetBuilderAntiKt4TopoEM                             INFO #BTAG#  b-tagging summary for JetProb: <w_all>=0.755301 <w_b>=0 <w_u>=0.755301
+BJetBuilderAntiKt4TopoEM                             INFO #BTAG#  b-tagging summary for SV0: <w_all>=0 <w_b>=0 <w_u>=0
+BJetBuilderAntiKt4TopoEM                             INFO #BTAG#  b-tagging summary for IP3D+SV1: <w_all>=-1.21161 <w_b>=0 <w_u>=-1.21161
+ConvertAODToMTree                                    INFO ConvertAODToMTree closing output ROOT file.
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] Change in memory usage -------------------------------- 
+AtlasTrackingGeometrySvc                             INFO [ memory usage ]    Virtual memory change (vsize) : 68036
+AtlasTrackingGeometrySvc                             INFO [ memory usage ]    Real memory change (rss)      : 68908
+AtlasTrackingGeometrySvc                             INFO [ memory usage ] ---------------------------------------------------------
+AtlasTrackingGeometrySvc                             INFO finalize() successful.
+SolenoidFitToroidSim                                 INFO :SolenoidFitToroidSim Destructor   12991  0
+IOVDbSvc                                          WARNING Folder /Indet/PixelDist is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /Indet/TrkErrorScaling is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/BadChannels/BadChannels is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/BadChannels/MissingFEBs is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /TILE/OFL02/NOISE/AUTOCR is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /TILE/OFL02/PULSESHAPE/PHY is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /TILE/ONL01/FILTER/OF2/PHY is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /CALO/Identifier/CaloTTOnAttrIdMapAtlas is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /CALO/Identifier/CaloTTOnOffIdMapAtlas is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /CALO/Identifier/CaloTTPpmRxIdMapAtlas is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/AutoCorr is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/DAC2uA is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/Identifier/FebRodAtlas is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/MinBias is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/MinBiasAverage is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/MphysOverMcal is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/Noise is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/Identifier/OnOffIdAtlas is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/Pedestal is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/Ramp is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/Shape is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/Identifier/LArTTCellMapAtlas is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/fSampl is requested but no data retrieved
+IOVDbSvc                                          WARNING Folder /LAR/ElecCalibMC/uA2MeV is requested but no data retrieved
+PerfMonSvc:    INFO Finalizing PerfMonSvc...
+ Dump of LumiBlockCollection with size: 2 has the following (run,lumiblock) ranges: 
+	 [ (109074,1):(109074,18) ]
+	 [ (109074,100):(109074,100) ]
+OBJ: Root::TGoodRunsList	IncompleteLumiBlocks_GoodDQ0	notitle
+ToolSvc.LArVolumeBuilder                             INFO finalize() successful
+ToolSvc.InDetCylinderVolumeCreator                   INFO finalize() successful
+ToolSvc.TRT_LayerBuilder                             INFO finalize() successful
+ToolSvc.SCT_LayerBuilder                             INFO finalize() successful
+ToolSvc.PixelLayerBuilder                            INFO finalize() successful
+ToolSvc.InDetTrackingGeometryBuilder                 INFO finalize() successful
+ToolSvc.InDetJetFitterUtils                          INFO Finalize successful
+ToolSvc.TrkDistanceFinderNeutralNeutral              INFO Finalize successful
+ToolSvc.TrkDistanceFinderNeutralCharged              INFO Finalize successful
+ToolSvc.ImprovedJetFitterRoutines                    INFO Finalize successful
+ToolSvc.NewJetFitterVxFinder                         INFO Finalize successful
+ToolSvc.InDetVKalVxNegInJetTool.VertexFitterTool     INFO TrkVKalVrtFitter finalize() successful
+ToolSvc.InDetVKalVxInJetTool.VertexFitterTool        INFO TrkVKalVrtFitter finalize() successful
+ToolSvc.SVForIPTool_TrackCountingFlip                INFO  Finalization of SVForIPTool succesfull
+ToolSvc.SVForIPTool_TrackCounting                    INFO  Finalization of SVForIPTool succesfull
+ToolSvc.JetFitterCOMBNNTool                          INFO  Finalization of JetFitterNNTool succesfull
+ToolSvc.JetFitterVariablesFactoryCOMBNN              INFO  Finalization of JetFitterVariablesFactory succesfull
+ToolSvc.JetFitterNtupleWriterCOMBNN                  INFO  Finalization of JetFitterNtupleWriter succesfull
+ToolSvc.JetFitterNNTool                              INFO  Finalization of JetFitterNNTool succesfull
+ToolSvc.JetFitterVariablesFactoryNN                  INFO  Finalization of JetFitterVariablesFactory succesfull
+ToolSvc.JetFitterNtupleWriterNN                      INFO  Finalization of JetFitterNtupleWriter succesfull
+ToolSvc.SVForIPTool_IP3DNeg                          INFO  Finalization of SVForIPTool succesfull
+ToolSvc.SVForIPTool_IP3D                             INFO  Finalization of SVForIPTool succesfull
+ToolSvc.SVForIPTool_IP2DNeg                          INFO  Finalization of SVForIPTool succesfull
+ToolSvc.SVForIPTool_IP2D                             INFO  Finalization of SVForIPTool succesfull
+ToolSvc.SVForIPTool_IP1D                             INFO  Finalization of SVForIPTool succesfull
+ToolSvc.myBTagTool                                   INFO #BTAG# number of jets with Primary Vertex set to BeamSpot 0 Total number of jets seen 8
+ToolSvc.ImprovedJetFitterInitializationHelper        INFO Finalize successful
+ToolSvc.NeuralNetworkToHistoToolNN                   INFO  Finalization of NeuralNetworkToHistoTool succesfull
+ToolSvc.SVForIPTool_JetProb                          INFO  Finalization of SVForIPTool succesfull
+ToolSvc.TileVolumeBuilder                            INFO finalize() successful
+ToolSvc.BTagTrackToVertexIPEstimator                 INFO Finalize successful
+PerfMonSvc:    INFO [fin] cpu= 142.000 ms vmem= 766.770 Mb dvmem=   0.000 Mb alloc= +0 -0    0.000 kb  => [/fin/PerfMonSlice]
+PMonSD ======================= semi-detailed perfmon info v1.0c / start =======================
+PMonSD === Documentation: https://twiki.cern.ch/twiki/bin/viewauth/Atlas/PerfMonSD ============
+PMonSD === Note that documentation includes recipe for easy parsing from python.   ============
+PMonSD === Units are milliseconds (cpu/wall) and kilobytes (vmem/malloc).          ============
+PMonSD === Full output inside: ntuple_aodtodpd.pmon.gz                             ============
+PMonSD ======================================= step ini =======================================
+PMonSD          n    cpu    vmem  malloc component
+PMonSD [ini]    1   6710   56668   49330 GeoModelSvc
+PMonSD [ini]    1    600   17536   31905 ToolSvc.TileBadChanTool
+PMonSD [ini]    1    810   23216   11526 EventSelector
+PMonSD [ini]    1   2110   15360     140 DetectorStore
+PMonSD [ini]    1   1640   16536   17097 [collapsed_260_comps]
+PMonSD [ini]    1  11870  129316  109998 [total_for_264_comps]
+PMonSD ======================================= step 1st =======================================
+PMonSD          n    cpu    vmem  malloc component
+PMonSD [1st]    1   2820   28552   27315 ConvertAODToMTree
+PMonSD [1st]    1    820   21908   21181 BJetBuilderAntiKt4TopoEM
+PMonSD [1st]    1      0       0       2 [collapsed_6_comps]
+PMonSD [1st]    1   3640   50460   48497 [total_for_8_comps]
+PMonSD ======================================= step cbk =======================================
+PMonSD          n    cpu    vmem  malloc component
+PMonSD [cbk]    1   2250   66788   70355 TrackingGeometrySvc[0x160e6c58]+21
+PMonSD [cbk]    1   2060    1024    1261 TrigConf::DSConfigSvc[0x13169900]+e8750fc0
+PMonSD [cbk]    1   1490       0       9 MagFieldAthenaSvc[0x12208f5c]+31
+PMonSD [cbk]    1   1310   15052   14439 [collapsed_30_comps]
+PMonSD [cbk]    1   7110   82864   86065 [total_for_33_comps]
+PMonSD ======================================= step evt =======================================
+PMonSD ======================================= step fin =======================================
+PMonSD          n    cpu    vmem  malloc component
+PMonSD [fin]    1    210       0 -101039 DetectorStore
+PMonSD [fin]    1     60       0  -36633 ToolSvc.MuonTrackingGeometryBuilder
+PMonSD [fin]    1     40       0  -21645 ConvertAODToMTree
+PMonSD [fin]    1     30       0   -7071 ToolSvc
+PMonSD [fin]    1     30       0       0 ChronoStatSvc
+PMonSD [fin]    1     60       0  -15430 [collapsed_262_comps]
+PMonSD [fin]    1    430       0 -181822 [total_for_267_comps]
+PMonSD ======================================= step dso =======================================
+PMonSD          n    cpu    vmem  malloc component
+PMonSD [dso]    1     20   32240       5 libBFieldAth.so
+PMonSD [dso]    1   1760   17912     247 libTrigEventAthenaPoolPoolCnv.so
+PMonSD [dso]    1   1020   15864     376 libJetTagTools.so
+PMonSD [dso]    1    750   14292     392 libMTree.so
+PMonSD [dso]    1    450    9032     166 /afs/cern.ch/atlas/software/releases/16.6.5/AtlasTrigger/16.6.5/InstallArea/i686-slc5-gcc43-opt/lib/libTrigTruthEventTPCnvDict.so
+PMonSD [dso]    1    430    5124    1153 /afs/cern.ch/atlas/software/releases/16.6.5/AtlasEvent/16.6.5/InstallArea/i686-slc5-gcc43-opt/lib/libTrigMuonEventDict.so
+PMonSD [dso]    1    190    4116     801 /afs/cern.ch/atlas/software/releases/16.6.5/AtlasEvent/16.6.5/InstallArea/i686-slc5-gcc43-opt/lib/libCaloEventDict.so
+PMonSD [dso]    1    100    2964     622 /afs/cern.ch/atlas/software/releases/16.6.5/AtlasCore/16.6.5/InstallArea/i686-slc5-gcc43-opt/lib/libAtlasSTLAddReflexDict.so
+PMonSD [dso]    1    170    2448     681 /afs/cern.ch/atlas/software/releases/16.6.5/AtlasConditions/16.6.5/InstallArea/i686-slc5-gcc43-opt/lib/libTRT_ConditionsDataDict.so
+PMonSD [dso]    1   9320  187008    7927 [collapsed_173_comps]
+PMonSD [dso]    1  14210  291000   12370 [total_for_182_comps]
+PMonSD ================================== step preLoadProxy ===================================
+PMonSD                   n    cpu    vmem  malloc component
+PMonSD [preLoadProxy]    1    270       0    4699 CondAttrListCollection[/CALO/Noise/CellNoise]
+PMonSD [preLoadProxy]    1    720       0    2636 CondAttrListCollection[/TILE/OFL01/TIME/CELLFIBERLENGTH]
+PMonSD [preLoadProxy]    1    260       0      65 AthenaAttributeList[/Indet/Beampos]
+PMonSD [preLoadProxy]    1    290       0      27 DetCondKeyTrans[/LAR/Align]
+PMonSD [preLoadProxy]    1    250       0       1 CondAttrListCollection[/GLOBAL/BTagCalib/ALL]
+PMonSD [preLoadProxy]    1    250       0    1541 [collapsed_66_comps]
+PMonSD [preLoadProxy]    1   2040       0    8969 [total_for_71_comps]
+PMonSD ===================================== special info =====================================
+PMonSD          n      cpu     wall     vmem   malloc component
+PMonSD [---]    0        0        0        -        - evtloop_time
+PMonSD [---]    0        0        0        -        - overhead_time
+PMonSD [---]    1        0        0   177372    69608 snapshot_pre_ini
+PMonSD [---]    1    33520   109614   693736   316151 snapshot_post_ini
+PMonSD [---]    1    40960   129919   785172   325129 snapshot_post_1stevt
+PMonSD [---]    1    40960   129919   785172   325129 snapshot_post_lastevt
+PMonSD [---]    1    41390   130613   785172   143087 snapshot_post_fin
+PMonSD [---]    0        -        -        0        0 leakperevt_evt11to50
+PMonSD [---]    0        -        -        0        0 leakperevt_evt51plus
+PMonSD [---] vmem_peak=785176 vmem_mean=0 rss_mean=0
+PMonSD [---] jobcfg_walltime=80977 jobstart=2011-08-12T13:33:49+0000
+PMonSD [---] cpu_bmips=4655 cpu_res=10 release=16.6.5/i686-slc5-gcc43-opt
+PMonSD [---] cpu_model=Intel(R)_Xeon(R)_CPU_E5345_@_2.33GHz/4096_KB
+PMonSD [---] malloc=libtcmalloc_minimal.so/ok pycintex_vmemfix=0
+PMonSD [---] pmonsd_cost_onceperjob=0 pmonsd_cost_perevt=0
+PMonSD =========================== semi-detailed perfmon info / end ===========================
+Py:PerfMonSvc        INFO Finalizing [PerfMonSvc]...
+Py:PerfMonSvc        INFO Events processed: 1
+Py:PerfMonSvc        INFO job had [0] algorithms
+Py:PerfMonSvc        INFO Statistics for 'ini': (nbr entries = 1)
+Py:PerfMonSvc        INFO <cpu>:    (  32246.000 +/-      0.000 ) ms
+Py:PerfMonSvc        INFO <real>:   ( 108214.000 +/-      0.000 ) ms
+Py:PerfMonSvc        INFO <vmem>:   (    677.477 +/-      0.000 ) MB
+Py:PerfMonSvc        INFO <malloc>: (      0.000 +/-      0.000 ) MB
+Py:PerfMonSvc        INFO <nalloc>: (      0.000 +/-      0.000 ) calls
+Py:PerfMonSvc        INFO <rt>: (  32229.082 +/-      0.000 ) ns
+Py:PerfMonSvc        INFO Statistics for 'evt': (nbr entries = 0)
+Py:PerfMonSvc        INFO <cpu>:    (      0.000 +/-      0.000 ) ms
+Py:PerfMonSvc        INFO <real>:   (      0.000 +/-      0.000 ) ms
+Py:PerfMonSvc        INFO <vmem>:   (      0.000 +/-      0.000 ) MB
+Py:PerfMonSvc        INFO <malloc>: (      0.000 +/-      0.000 ) MB
+Py:PerfMonSvc        INFO <nalloc>: (      0.000 +/-      0.000 ) calls
+Py:PerfMonSvc        INFO <rt>: (      0.000 +/-      0.000 ) ns
+Py:PerfMonSvc        INFO Statistics for 'fin': (nbr entries = 1)
+Py:PerfMonSvc        INFO <cpu>:    (    142.000 +/-      0.000 ) ms
+Py:PerfMonSvc        INFO <real>:   (    190.000 +/-      0.000 ) ms
+Py:PerfMonSvc        INFO <vmem>:   (    766.770 +/-      0.000 ) MB
+Py:PerfMonSvc        INFO <malloc>: (      0.000 +/-      0.000 ) MB
+Py:PerfMonSvc        INFO <nalloc>: (      0.000 +/-      0.000 ) calls
+Py:PerfMonSvc        INFO <rt>: (    142.660 +/-      0.000 ) ns
+Py:PerfMonSvc        INFO memory infos from [/proc/self/status]:
+Py:PerfMonSvc        INFO VmData:	508228 kB
+Py:PerfMonSvc        INFO VmExe:	1196 kB
+Py:PerfMonSvc        INFO VmHWM:	597432 kB
+Py:PerfMonSvc        INFO VmLck:	0 kB
+Py:PerfMonSvc        INFO VmLib:	262512 kB
+Py:PerfMonSvc        INFO VmPTE:	1536 kB
+Py:PerfMonSvc        INFO VmPeak:	785176 kB
+Py:PerfMonSvc        INFO VmRSS:	597432 kB
+Py:PerfMonSvc        INFO VmSize:	785176 kB
+Py:PerfMonSvc        INFO VmStk:	284 kB
+Py:PerfMonSvc        INFO vmem-leak estimation: (nevts=1)
+Py:PerfMonSvc        INFO   first-evt vmem:   766.770 Mb
+Py:PerfMonSvc        INFO   10th -evt vmem:     0.000 Mb
+Py:PerfMonSvc        INFO   last -evt vmem:   766.770 Mb
+Py:PerfMonSvc        INFO   evt  2-20 fitted vmem-slope (0 points): N/A
+Py:PerfMonSvc        INFO   evt 21-50 fitted vmem-slope (0 points): N/A
+Py:PerfMonSvc        INFO   evt 51+   fitted vmem-slope (0 points): N/A
+Py:PerfMonSvc        INFO Si2k: 0.0 => <cpu time>:      0.000 kSi2k
+Py:PerfMonSvc        INFO Writing out collected data... [ntuple_aodtodpd.pmon.gz]
+Py:PerfMonSvc        INFO  --> [ntuple_aodtodpd.pmon.dat] =>    7.000 kb
+Py:PerfMonSvc        INFO  --> [ntuple_aodtodpd.pmon.stream] =>  172.607 kb
+Py:PerfMonSvc        INFO  --> [ntuple_aodtodpd.pmon.pmonsd.txt] =>   65.880 kb
+Py:PerfMonSvc        INFO Writing out collected data... [ntuple_aodtodpd.pmon.gz] =>   34.300 kb
+ApplicationMgr                                       INFO Application Manager Finalized successfully
+ApplicationMgr                                       INFO Application Manager Terminated successfully
+Summarizing all message counts
+=====================================================
+ Message Source              |   Level |    Count
+-----------------------------+---------+-------------
+ IOVDbSvc                    | WARNING |       24
+ THistSvc                    | WARNING |        1
+ ToolSvc.GoodRunsListSelectorTool| WARNING |        1
+=====================================================
+Py:Athena            INFO leaving with code 0: "successful run"

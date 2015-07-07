@@ -1,0 +1,33 @@
+../i686-slc5-gcc43-opt/Trigger.d ../i686-slc5-gcc43-opt/Trigger.o : ../i686-slc5-gcc43-opt/Trigger.d.stamp  ../src/Trigger.cxx \
+  /net/s3_data_home/swalch/testarea/16.6.5/InstallArea/include/MTree/MTree/Trigger.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TROOT.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TDirectory.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TNamed.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TObject.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/Rtypes.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/RConfig.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/RVersion.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/DllImport.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/Rtypeinfo.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TGenericClassInfo.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TSchemaHelper.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TStorage.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TVersionCheck.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/Riosfwd.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TBuffer.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TString.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TRefCnt.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TMathBase.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TList.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TSeqCollection.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TCollection.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TIterator.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TDatime.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TUUID.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TObject.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TMath.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TError.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TClonesArray.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TObjArray.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TString.h \
+  /afs/cern.ch/atlas/software/releases/16.6.5/sw/lcg/app/releases/ROOT/5.26.00e_python2.6/i686-slc5-gcc43-opt/root/include/TObjString.h

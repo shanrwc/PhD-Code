@@ -1,0 +1,47 @@
+package MTree
+
+author Jonas Strandberg <strandbe@umich.edu>
+
+use AtlasPolicy			AtlasPolicy-01-*
+
+branches run
+
+use GaudiInterface		GaudiInterface-01-*		External
+use AtlasROOT			AtlasROOT-02-*			External
+use AtlasCLHEP  		AtlasCLHEP-00-* 		External
+use AtlasHepMC			AtlasHepMC-*			External
+
+use StoreGate           	StoreGate-*                     Control
+
+use egammaEvent         	egammaEvent-*           	Reconstruction/egamma
+use muonEvent			muonEvent-*			Reconstruction/MuonIdentification
+use MuonIDEvent			MuonIDEvent-*			PhysicsAnalysis/MuonID
+use JetEvent			JetEvent-*			Reconstruction/Jet
+use JetUtils                    JetUtils-*		        Reconstruction/Jet
+use JetMomentTools		JetMomentTools-*		Reconstruction/Jet
+use JetTagInfo 			JetTagInfo-*	        	PhysicsAnalysis/JetTagging
+use JetTagEvent			JetTagEvent-*	        	PhysicsAnalysis/JetTagging
+use Particle			Particle-*			Reconstruction
+use MissingETEvent              MissingETEvent-*                Reconstruction
+use EventInfo                   EventInfo-*                     Event
+use AnalysisTriggerEvent        AnalysisTriggerEvent-*          PhysicsAnalysis/AnalysisTrigger
+use McParticleEvent		McParticleEvent-*		PhysicsAnalysis/TruthParticleID
+use ITrackToVertex		ITrackToVertex-*		Reconstruction/RecoTools
+use IsolationTool               IsolationTool-*                 Reconstruction/RecoTools
+use TrigDecisionTool            TrigDecisionTool-*              Trigger/TrigAnalysis	
+use MCTruthClassifier           MCTruthClassifier-*             PhysicsAnalysis
+
+use TrigParticle		TrigParticle-*			Trigger/TrigEvent			
+use TrigMuonEvent		TrigMuonEvent-*			Trigger/TrigEvent
+
+use AtlasAnalysisRunTime 	AtlasAnalysisRunTime-*
+
+library MTree *.cxx components/*.cxx
+
+apply_tag  ROOTBasicLibs
+apply_tag  ROOTMathLibs
+apply_tag  ROOTSTLDictLibs
+apply_tag  ROOTGraphicsLibs
+apply_tag  ROOTTableLibs
+
+apply_pattern component_library

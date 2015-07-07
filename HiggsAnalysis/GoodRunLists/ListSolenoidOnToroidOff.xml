@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE LumiRangeCollection
+  SYSTEM 'http://atlas-runquery.cern.ch/LumiRangeCollection.dtd'>
+<!-- Good-runs-list created by AtlRunQuery.py on 2010-01-20 20:37:08.840411 -->
+<LumiRangeCollection>
+   <NamedLumiRange>
+      <Name>MyLBCollection</Name>
+      <Version>2.1</Version>
+      <Metadata Name="Query">find run 140541-142406 and partition ATLAS and db DATA and duration 60s+ and dq pix g and dq sct g and dq mdt g and lhc stablebeams true and mag s and not mag t  </Metadata>
+      <Metadata Name="RunList">142154,142149,141811,141749</Metadata>
+      <Metadata Name="RQTSVNVersion">CoolRunQuery-00-01-92</Metadata>
+      <Metadata Name="StreamListInfo">
+         <Stream Name="physics_BPTX" TotalNumOfEvents="1501030" NumOfSelectedEvents="861706"/>
+         <Stream Name="physics_L1Calo" TotalNumOfEvents="309" NumOfSelectedEvents="159"/>
+         <Stream Name="physics_L1CaloEM" TotalNumOfEvents="62" NumOfSelectedEvents="26"/>
+         <Stream Name="physics_MinBias" TotalNumOfEvents="77094" NumOfSelectedEvents="38850"/>
+         <Stream Name="physics_MuonswBeam" TotalNumOfEvents="33877" NumOfSelectedEvents="23784"/>
+         <Stream Name="physics_RNDM" TotalNumOfEvents="114155" NumOfSelectedEvents="44509"/>
+      </Metadata>
+      <LumiBlockCollection>
+         <Run>142154</Run>
+         <LBRange Start="23" End="35"/>
+      </LumiBlockCollection>
+      <LumiBlockCollection>
+         <Run>142149</Run>
+         <LBRange Start="65" End="87"/>
+      </LumiBlockCollection>
+      <LumiBlockCollection>
+         <Run>141811</Run>
+         <LBRange Start="130" End="165"/>
+      </LumiBlockCollection>
+      <LumiBlockCollection>
+         <Run>141749</Run>
+         <LBRange Start="19" End="100"/>
+      </LumiBlockCollection>
+   </NamedLumiRange>
+</LumiRangeCollection>

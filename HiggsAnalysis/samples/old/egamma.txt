@@ -1,0 +1,7 @@
+dataEg183602 /net/s3_dataa/MTree/MTree-16-01-14/AOD/data/Egamma/user.swalch.data11_7TeV.00183602.physics_Egamma.merge.AOD.f385_m884.MT16-01-14.v4.110718195703 user.swalch.003993.EXT0._00001.MTree.root
+dataEg183602 /net/s3_dataa/MTree/MTree-16-01-14/AOD/data/Egamma/user.swalch.data11_7TeV.00183602.physics_Egamma.merge.AOD.f385_m884.MT16-01-14.v4.110718195703 user.swalch.003993.EXT0._00002.MTree.root
+dataEg183602 /net/s3_dataa/MTree/MTree-16-01-14/AOD/data/Egamma/user.swalch.data11_7TeV.00183602.physics_Egamma.merge.AOD.f385_m884.MT16-01-14.v4.110718195703 user.swalch.003993.EXT0._00003.MTree.root
+dataEg183602 /net/s3_dataa/MTree/MTree-16-01-14/AOD/data/Egamma/user.swalch.data11_7TeV.00183602.physics_Egamma.merge.AOD.f385_m884.MT16-01-14.v4.110718195703 user.swalch.003993.EXT0._00004.MTree.root
+dataEg183602 /net/s3_dataa/MTree/MTree-16-01-14/AOD/data/Egamma/user.swalch.data11_7TeV.00183602.physics_Egamma.merge.AOD.f385_m884.MT16-01-14.v4.110718195703 user.swalch.003993.EXT0._00005.MTree.root
+dataEg183602 /net/s3_dataa/MTree/MTree-16-01-14/AOD/data/Egamma/user.swalch.data11_7TeV.00183602.physics_Egamma.merge.AOD.f385_m884.MT16-01-14.v4.110718195703 user.swalch.003993.EXT0._00006.MTree.root
+dataEg183602 /net/s3_dataa/MTree/MTree-16-01-14/AOD/data/Egamma/user.swalch.data11_7TeV.00183602.physics_Egamma.merge.AOD.f385_m884.MT16-01-14.v4.110718195703 user.swalch.003993.EXT0._00007.MTree.root

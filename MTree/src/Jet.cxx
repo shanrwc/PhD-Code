@@ -1,0 +1,164 @@
+
+#include "MTree/Jet.h"
+
+namespace MTree {
+
+Jet::Jet() : TLorentzVector(0.0, 0.0, 0.0, 0.0), _IP3D(0.0), _SV0(0.0), _SV1(0.0), _SV2(0.0), _Weight(0.0),
+	     _CSIP(0.0), _JetProb(0.0), _JetFitTag(0.0), _JetFitCOMB(0.0), _JetFitTagNN(0.0), _JetFitCOMBNN(0.0), 
+	     _JetEMFraction(0.0), /*_LArQuality(-1.0), _HECQuality(-1.0), _JetTime(0.0), _JetTiming(0.0), 
+	     _N90(0),*/ _N90Tool(0), _N90Constituents(0), /*_NegativeE(0.0),*/
+	     _SamplingMax(0), _SamplingMaxFrac(0.0), _HECFrac(0.0), _TileGap3Frac(0.0), _IsGood(0),
+	     _IsBad(0), _IsUgly(0), _RawE(0.0), _RawPx(0.0), _RawPy(0.0), _RawPz(0.0), /*_CScaleE(0.0),
+	     _CScalePx(0.0), _CScalePy(0.0), _CScalePz(0.0), _CalE(0.0), _CalPx(0.0), _CalPy(0.0), _CalPz(0.0),*/ 
+	     /*_EmJESFactor(0.0),*/ _JetFlavor(1), _TrueFlavor(1), _LeadingPartonPdgID(0), _LeadingPartonPt(0.0), /*_JetVertexFraction(0.0),
+	     _NTracks(0), _SumPtTracks(0.0),*/ _newJetVertexFraction(0.0), _newNTracks(0.0), _newSumPtTracks(0.0),
+	     _METWex(0.0), _METWey(0.0), _METWet(0.0) {
+}
+
+Jet::~Jet() {
+
+}
+
+void Jet::Initialize(double Pt, double Eta, double Phi, double Mass, float IP3D, float SV0, float SV1, 
+		     float SV2, float Weight, float CSIP, float JetProb, float JetFitTag, float JetFitCOMB, float JetFitTagNN, float JetFitCOMBNN) {
+  SetPtEtaPhiM(Pt, Eta, Phi, Mass);
+  _IP3D = IP3D;
+  _SV0 = SV0;
+  _SV1 = SV1;
+  _SV2 = SV2;
+  _Weight = Weight;
+  _CSIP = CSIP;
+  _JetProb = JetProb;
+  _JetFitTag = JetFitTag;
+  _JetFitCOMB = JetFitCOMB;
+  _JetFitTagNN = JetFitTagNN;
+  _JetFitCOMBNN = JetFitCOMBNN;
+}
+
+void Jet::SetMissingETWeights(float METWex, float METWey, float METWet)
+{
+  _METWex = METWex;
+  _METWey = METWey;
+  _METWet = METWet;
+}
+
+void Jet::SetJetQualities(float JetEMFraction, /*float LArQuality, float HECQuality, float JetTiming,
+						   int N90,*/ int N90Constituents, //float NegativeE, 
+			  int SamplingMax, float SamplingMaxFrac, float HECFrac, float TileGap3Frac) {
+  _JetEMFraction = JetEMFraction;
+//   _LArQuality = LArQuality;
+//   _HECQuality = HECQuality;
+//   _JetTiming = JetTiming;
+//   _N90 = N90;
+  _N90Constituents = N90Constituents;
+//   _NegativeE = NegativeE;
+  _SamplingMax = SamplingMax;
+  _SamplingMaxFrac = SamplingMaxFrac;
+  _HECFrac = HECFrac;
+  _TileGap3Frac = TileGap3Frac;
+}
+
+void Jet::SetJetQualityFlags(bool IsGood, bool IsBad, bool IsUgly) {
+  _IsGood = IsGood;
+  _IsBad = IsBad;
+  _IsUgly = IsUgly;
+}
+
+void Jet::SetRawEnergies(float RawE, float RawPx, float RawPy, float RawPz){// , float CScaleE, float CScalePx, 
+// 			 float CScalePy, float CScalePz, float CalE, float CalPx, float CalPy, float CalPz,
+// 			 float EmJESFactor, float GCWJESFactor) {
+  _RawE = RawE;
+  _RawPx = RawPx;
+  _RawPy = RawPy;
+  _RawPz = RawPz;
+//   _CScaleE = CScaleE;
+//   _CScalePx = CScalePx;
+//   _CScalePy = CScalePy;
+//   _CScalePz = CScalePz;
+//   _CalE = CalE;
+//   _CalPx = CalPx;
+//   _CalPy = CalPy;
+//   _CalPz = CalPz;
+//   _EmJESFactor = EmJESFactor;
+//   _GCWJESFactor = GCWJESFactor;
+}
+void Jet::SetJVF(/*float JetVertexFraction, int NTracks, float SumPtTracks,*/ float newJetVertexFraction, int newNTracks, float newSumPtTracks)
+{
+//   _JetVertexFraction = JetVertexFraction;
+//   _NTracks = NTracks;
+//   _SumPtTracks = SumPtTracks;
+  _newJetVertexFraction = newJetVertexFraction;
+  _newNTracks = newNTracks;
+  _newSumPtTracks = newSumPtTracks;
+}
+
+
+void Jet::PrintData(std::ostream& s) const {
+  s << "*****\n* Jet\n*****" << std::endl;
+  s << "Jet 4-vector [E,px,py,pz]   = [" << this->E() << ", " << this->Px() << ", " << this->Py()
+    << ", " << this->Pz() << "]" << std::endl;
+  s << "Jet 4-vector [pT,eta,phi,m] = [" << this->Pt() << ", " << this->Eta() << ", " << this->Phi()
+    << ", " << this->M() << "]" << std::endl;
+  s <<   "Jet Flavor           : " << _JetFlavor 
+    <<   "True Flavor          : " << _TrueFlavor
+    << "\nLeading Parton PDG ID: " << _LeadingPartonPdgID
+    << "\nLeading Parton Pt    : " << _LeadingPartonPt
+    << "\nIP3D                 : " << _IP3D
+    << "\nSV0                  : " << _SV0 
+    << "\nSV1                  : " << _SV1 
+    << "\nSV2                  : " << _SV2 
+    << "\nWeight               : " << _Weight 
+    << "\nCSIP                 : " << _CSIP 
+    << "\nJetProb              : " << _JetProb
+    << "\nJetEMFraction        : " << _JetEMFraction 
+//     << "\nLArQuality           : " << _LArQuality 
+//     << "\nHECQuality           : " << _HECQuality 
+//     << "\nJetTime              : " << _JetTime 
+//     << "\nN90                  : " << _N90 
+    << "\nN90Tool              : " << _N90Tool 
+    << "\nN90Constituents      : " << _N90Constituents 
+//     << "\nNegativeE            : " << _NegativeE 
+    << "\nSamplingMax          : " << _SamplingMax
+    << "\nSamplingMaxFrac      : " << _SamplingMaxFrac
+    << "\nHECFrac              : " << _HECFrac
+    << "\nTileGap3Frac         : " << _TileGap3Frac
+    << "\nIsGood               : " << _IsGood
+    << "\nIsBad                : " << _IsBad
+    << "\nIsUgly               : " << _IsUgly
+    << "\nRawE                 : " << _RawE
+    << "\nRawPx                : " << _RawPx
+    << "\nRawPy                : " << _RawPy
+    << "\nRawPz                : " << _RawPz
+//     << "\nCScaleE              : " << _CScaleE
+//     << "\nCScalePx             : " << _CScalePx
+//     << "\nCScalePy             : " << _CScalePy
+//     << "\nCScalePz             : " << _CScalePz
+//     << "\nCalE                 : " << _CalE
+//     << "\nCalPx                : " << _CalPx
+//     << "\nCalPy                : " << _CalPy
+//     << "\nCalPz                : " << _CalPz
+//     << "\nEmJESFactor          : " << _EmJESFactor
+//     << "\nGCWJESFactor         : " << _GCWJESFactor
+    << "\nMETWex               : " << _METWex
+    << "\nMETWey               : " << _METWey
+    << "\nMETWet               : " << _METWet
+//     << "\nJetVertexFraction    : " << _JetVertexFraction 
+//     << "\nNTracks              : " << _NTracks 
+//     << "\nSumPtTracks          : " << _SumPtTracks 
+    << "\nnewJetVertexFraction    : " << _newJetVertexFraction 
+    << "\nnewNTracks              : " << _newNTracks 
+    << "\nnewSumPtTracks          : " << _newSumPtTracks 
+    << "\n---List of jet moments  : ";
+  for (std::map<std::string, float>::iterator itr=_jetMoments.begin();itr!=_jetMoments.end();itr++)
+  {
+    s << "\n   " << itr->first;
+    for (int i=(int)itr->first.size();i<(int)std::string("                  ").size();i++) s << " ";
+    s << ": " << itr->second;
+  }
+  s << std::endl;
+  s << "*****\n" << std::endl;
+}
+
+}
+ 
+ClassImp(MTree::Jet)
